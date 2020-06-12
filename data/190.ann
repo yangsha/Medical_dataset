@@ -1,0 +1,33 @@
+T1	Drug 0 5	灰黄霉素片
+T2	Disease 8 12	各种癣病
+T3	Disease 20 22	头癣
+T4	Disease 23 25	须癣
+T5	Disease 26 28	体癣
+T6	Disease 29 31	股癣
+T7	Disease 32 34	足癣
+T8	Disease 35 37	甲癣
+T9	Bacterial 45 51	深红色发癣菌
+T10	Bacterial 52 56	断发癣菌
+T11	Bacterial 57 61	须发癣菌
+T12	Bacterial 62 67	指间发癣菌
+T13	Bacterial 70 77	奥杜安小孢子菌
+T14	Bacterial 78 83	犬小孢子菌
+T15	Bacterial 84 91	石膏样小孢子菌
+T16	Bacterial 92 98	絮状表皮癣菌
+T17	Disease 110 122	轻症、局限的浅部真菌感染
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Disease_Disease Arg1:T2 Arg2:T3	
+R3	Disease_Disease Arg1:T2 Arg2:T4	
+R4	Disease_Disease Arg1:T2 Arg2:T5	
+R5	Disease_Disease Arg1:T2 Arg2:T6	
+R6	Disease_Disease Arg1:T2 Arg2:T7	
+R7	Disease_Disease Arg1:T2 Arg2:T8	
+R8	Bacterial_Disease Arg1:T9 Arg2:T2	
+R9	Bacterial_Disease Arg1:T10 Arg2:T2	
+R10	Bacterial_Disease Arg1:T11 Arg2:T2	
+R11	Bacterial_Disease Arg1:T12 Arg2:T2	
+R12	Bacterial_Disease Arg1:T13 Arg2:T2	
+R13	Bacterial_Disease Arg1:T14 Arg2:T2	
+R14	Bacterial_Disease Arg1:T15 Arg2:T2	
+R15	Bacterial_Disease Arg1:T16 Arg2:T2	
+R16	Drug_Disease Arg1:T1 Arg2:T17	

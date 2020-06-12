@@ -1,0 +1,7 @@
+T1	Drug 0 6	灭菌结晶磺胺
+T2	Bacterial 8 14	溶血性链球菌
+T3	Bacterial 15 19	葡萄球菌
+T4	Disease 21 25	外伤感染
+R1	Drug_Disease Arg1:T1 Arg2:T4	
+R2	Bacterial_Disease Arg1:T3 Arg2:T4	
+R3	Bacterial_Disease Arg1:T2 Arg2:T4	

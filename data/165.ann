@@ -1,0 +1,5 @@
+T1	Drug 0 8	盐酸阿莫罗芬搽剂
+T2	Bacterial 12 16	敏感真菌
+T3	Disease 19 31	指（趾）甲感染（灰指甲）
+R1	Drug_Disease Arg1:T1 Arg2:T3	
+R2	Bacterial_Disease Arg1:T2 Arg2:T3	

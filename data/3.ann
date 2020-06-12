@@ -1,0 +1,11 @@
+T1	Drug 0 6	莫匹罗星软膏
+T2	Bacterial 9 15	革兰阳性球菌
+T3	Disease 18 22	皮肤感染
+T4	Disease 26 29	脓疱病
+T5	Disease 30 32	疖肿
+T6	Disease 33 36	毛囊炎
+R1	Drug_Disease Arg1:T1 Arg2:T3	
+R2	Bacterial_Disease Arg1:T2 Arg2:T3	
+R3	Disease_Disease Arg1:T3 Arg2:T4	
+R4	Disease_Disease Arg1:T3 Arg2:T5	
+R5	Disease_Disease Arg1:T3 Arg2:T6	

@@ -1,0 +1,5 @@
+T1	Drug 0 6	地氯雷他定片
+T2	Disease 10 18	慢性特发性荨麻疹
+T3	Disease 19 27	常年性过敏性鼻炎
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Drug_Disease Arg1:T1 Arg2:T3	

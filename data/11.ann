@@ -1,0 +1,15 @@
+T1	Drug 0 6	硝酸咪康唑散
+T2	Bacterial 8 10	真菌
+T3	Bacterial 11 14	酵母菌
+T4	Disease 17 20	指间癣
+T5	Disease 21 25	腹股沟癣
+T6	Disease 26 29	尿布疹
+R1	Drug_Disease Arg1:T1 Arg2:T4	
+R2	Drug_Disease Arg1:T1 Arg2:T5	
+R3	Drug_Disease Arg1:T1 Arg2:T6	
+R4	Bacterial_Disease Arg1:T2 Arg2:T4	
+R5	Bacterial_Disease Arg1:T2 Arg2:T5	
+R6	Bacterial_Disease Arg1:T2 Arg2:T6	
+R7	Bacterial_Disease Arg1:T3 Arg2:T4	
+R8	Bacterial_Disease Arg1:T3 Arg2:T5	
+R9	Bacterial_Disease Arg1:T3 Arg2:T6	

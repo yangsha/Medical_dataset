@@ -1,0 +1,12 @@
+T1	Drug 0 6	依诺沙星乳膏
+T2	Disease 9 12	脓疱疮
+T3	Disease 13 16	毛囊炎
+T4	Disease 17 19	疖肿
+T5	Disease 20 27	烧烫伤创面感染
+T6	Disease 28 36	足癣合并细菌感染
+T7	Disease 37 49	各种皮肤软组织细菌性感染
+R1	Drug_Disease Arg1:T1 Arg2:T7	
+R2	Disease_Disease Arg1:T7 Arg2:T2	
+R3	Disease_Disease Arg1:T7 Arg2:T3	
+R4	Disease_Disease Arg1:T7 Arg2:T6	
+R5	Disease_Disease Arg1:T7 Arg2:T5	

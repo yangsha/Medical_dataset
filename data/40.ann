@@ -1,0 +1,13 @@
+T1	Drug 0 8	盐酸环丙沙星乳膏
+T2	Bacterial 12 15	敏感菌
+T3	Disease 18 26	各种感染性皮肤病
+T4	Disease 28 34	脓疱疮毛囊炎
+T5	Disease 35 41	足癣继发感染
+T6	Disease 42 48	湿疹继发感染
+T7	Disease 49 58	其他表浅局限性感染
+R1	Drug_Disease Arg1:T1 Arg2:T3	
+R2	Bacterial_Disease Arg1:T2 Arg2:T3	
+R3	Disease_Disease Arg1:T3 Arg2:T4	
+R4	Disease_Disease Arg1:T3 Arg2:T5	
+R5	Disease_Disease Arg1:T3 Arg2:T6	
+R6	Disease_Disease Arg1:T3 Arg2:T7	

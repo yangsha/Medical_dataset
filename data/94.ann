@@ -1,0 +1,15 @@
+T1	Drug 0 4	双唑泰栓
+T2	Disease 6 12	细菌性阴道病
+T3	Disease 13 22	念珠菌性外阴阴道病
+T4	Disease 23 29	滴虫性阴道炎
+T5	Disease 41 47	感染性阴道炎
+T6	Bacterial 31 33	细菌
+T7	Bacterial 34 36	真菌
+T8	Bacterial 37 39	滴虫
+R1	Drug_Disease Arg1:T1 Arg2:T5	
+R2	Drug_Disease Arg1:T1 Arg2:T2	
+R3	Drug_Disease Arg1:T1 Arg2:T3	
+R4	Drug_Disease Arg1:T1 Arg2:T4	
+R5	Bacterial_Disease Arg1:T6 Arg2:T5	
+R6	Bacterial_Disease Arg1:T7 Arg2:T5	
+R7	Bacterial_Disease Arg1:T8 Arg2:T5	

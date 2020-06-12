@@ -1,0 +1,21 @@
+T1	Drug 0 6	伏立康唑胶囊
+T2	Disease 15 21	侵袭性曲霉病
+T3	Patient 25 35	非中性粒细胞减少患者
+T4	Disease 37 42	念珠菌血症
+T5	Bacterial 46 56	对氟康唑耐药的念珠菌
+T6	Disease 59 66	严重侵袭性感染
+T7	Disease 69 74	克柔念珠菌
+T8	Bacterial 80 86	足放线病菌属
+T9	Bacterial 87 91	镰刀菌属
+T10	Disease 94 98	严重感染
+T11	Patient 109 127	患有进展性、可能威胁生命的感染的患者
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Drug_Patient Arg1:T1 Arg2:T3	
+R3	Drug_Disease Arg1:T1 Arg2:T4	
+R4	Drug_Disease Arg1:T1 Arg2:T6	
+R5	Bacterial_Disease Arg1:T5 Arg2:T6	
+R6	Bacterial_Disease Arg1:T5 Arg2:T7	
+R7	Drug_Disease Arg1:T1 Arg2:T10	
+R8	Bacterial_Disease Arg1:T8 Arg2:T10	
+R9	Bacterial_Disease Arg1:T9 Arg2:T10	
+R10	Drug_Patient Arg1:T1 Arg2:T11	

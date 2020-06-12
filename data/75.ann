@@ -1,0 +1,15 @@
+T1	Drug 0 8	聚甲酚磺醛阴道栓
+T2	Disease 12 16	宫颈糜烂
+T3	Disease 17 20	宫颈炎
+T4	Disease 21 27	各类阴道感染
+T5	Disease 29 35	细菌性阴道病
+T6	Disease 36 42	滴虫性阴道炎
+T7	Disease 43 51	外阴阴道念珠菌病
+T8	Disease 55 66	子宫托造成的压迫性溃疡
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Drug_Disease Arg1:T1 Arg2:T3	
+R3	Drug_Disease Arg1:T1 Arg2:T4	
+R4	Disease_Disease Arg1:T4 Arg2:T5	
+R5	Disease_Disease Arg1:T4 Arg2:T6	
+R6	Disease_Disease Arg1:T4 Arg2:T7	
+R7	Drug_Disease Arg1:T1 Arg2:T8	

@@ -1,0 +1,7 @@
+T1	Drug 0 5	四环素软膏
+T2	Bacterial 7 14	敏感革兰阳性菌
+T3	Bacterial 15 20	革兰阴性菌
+T4	Disease 23 29	皮肤表面感染
+R1	Drug_Disease Arg1:T1 Arg2:T4	
+R2	Bacterial_Disease Arg1:T3 Arg2:T4	
+R3	Bacterial_Disease Arg1:T2 Arg2:T4	

@@ -1,0 +1,14 @@
+T1	Drug 0 8	胶体酒石酸铋胶囊
+T2	Disease 12 17	消化性溃疡
+T3	Disease 21 32	幽门螺旋杆菌相关性溃疡
+T4	Disease 37 42	慢性结肠炎
+T5	Disease 43 49	溃疡性结肠炎
+T6	Symptom 51 53	腹泻
+T7	Disease 54 65	慢性浅表性和萎缩性胃炎
+T8	Bacterial 21 27	幽门螺旋杆菌
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Drug_Disease Arg1:T1 Arg2:T3	
+R3	Drug_Disease Arg1:T1 Arg2:T4	
+R4	Drug_Disease Arg1:T1 Arg2:T5	
+R5	Disease_Symptom Arg1:T5 Arg2:T6	
+R6	Drug_Disease Arg1:T1 Arg2:T7	

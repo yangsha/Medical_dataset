@@ -1,0 +1,5 @@
+T1	Drug 0 6	米诺地尔搽剂
+T2	Disease 11 16	男性型脱发
+T3	Disease 17 19	斑秃
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Drug_Disease Arg1:T1 Arg2:T3	

@@ -1,0 +1,59 @@
+T1	Drug 0 6	盐酸多西环素
+T2	Disease 36 41	立克次体病
+T3	Disease 43 50	流行性斑疹伤寒
+T4	Disease 51 58	地方性斑疹伤寒
+T5	Disease 59 63	洛矶山热
+T6	Disease 64 67	恙虫病
+T7	Disease 68 70	Q热
+T8	Disease 77 83	支原体属感染
+T9	Disease 90 96	衣原体属感染
+T10	Disease 99 102	鹦鹉热
+T11	Disease 103 105	性病
+T12	Disease 106 111	淋巴肉牙肿
+T13	Disease 112 119	非特异性尿道炎
+T14	Disease 120 124	输卵管炎
+T15	Disease 125 128	宫颈炎
+T16	Disease 129 131	沙眼
+T17	Disease 138 141	回归热
+T18	Disease 148 152	布鲁菌病
+T19	Disease 159 161	霍乱
+T20	Disease 168 171	兔热病
+T21	Disease 178 180	鼠疫
+T22	Disease 187 190	软下疳
+T23	Disease 294 297	破伤风
+T24	Disease 298 302	气性坏疽
+T25	Disease 303 305	雅司
+T26	Disease 306 308	梅毒
+T27	Disease 309 311	淋病
+T28	Disease 312 318	钩端螺旋体病
+T29	Disease 320 331	放线菌属、李斯特菌感染
+T30	Disease 340 346	中、重度痤疮
+T31	Patient 284 293	对青霉素类过敏患者
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Disease_Disease Arg1:T2 Arg2:T3	
+R3	Disease_Disease Arg1:T2 Arg2:T4	
+R4	Disease_Disease Arg1:T2 Arg2:T5	
+R5	Disease_Disease Arg1:T2 Arg2:T6	
+R6	Disease_Disease Arg1:T2 Arg2:T7	
+R7	Drug_Disease Arg1:T1 Arg2:T8	
+R8	Drug_Disease Arg1:T1 Arg2:T9	
+R9	Disease_Disease Arg1:T9 Arg2:T10	
+R10	Disease_Disease Arg1:T9 Arg2:T11	
+R11	Disease_Disease Arg1:T9 Arg2:T12	
+R12	Disease_Disease Arg1:T9 Arg2:T13	
+R13	Disease_Disease Arg1:T9 Arg2:T14	
+R14	Disease_Disease Arg1:T9 Arg2:T15	
+R15	Disease_Disease Arg1:T9 Arg2:T16	
+R16	Drug_Disease Arg1:T1 Arg2:T17	
+R17	Drug_Disease Arg1:T1 Arg2:T18	
+R18	Drug_Disease Arg1:T1 Arg2:T19	
+R19	Drug_Disease Arg1:T1 Arg2:T20	
+R20	Drug_Disease Arg1:T1 Arg2:T22	
+R21	Drug_Disease Arg1:T1 Arg2:T23	
+R22	Drug_Disease Arg1:T1 Arg2:T24	
+R23	Drug_Disease Arg1:T1 Arg2:T25	
+R24	Drug_Disease Arg1:T1 Arg2:T26	
+R25	Drug_Disease Arg1:T1 Arg2:T27	
+R26	Drug_Disease Arg1:T1 Arg2:T28	
+R27	Drug_Disease Arg1:T1 Arg2:T29	
+R28	Drug_Disease Arg1:T1 Arg2:T30	

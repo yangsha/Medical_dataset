@@ -1,0 +1,15 @@
+T1	Drug 0 7	九泰维胺酯胶囊
+T2	Disease 17 23	治疗各种痤疮
+T3	Disease 24 32	角化异常性皮肤病
+T4	Disease 34 37	鱼鳞病
+T5	Disease 38 41	银屑病
+T6	Disease 42 48	苔癣类皮肤病
+T7	Disease 49 52	粘膜病
+T8	Disease 53 59	结蹄组织疾病
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Drug_Disease Arg1:T1 Arg2:T3	
+R3	Drug_Disease Arg1:T1 Arg2:T4	
+R4	Drug_Disease Arg1:T1 Arg2:T5	
+R5	Drug_Disease Arg1:T1 Arg2:T6	
+R6	Drug_Disease Arg1:T1 Arg2:T7	
+R7	Drug_Disease Arg1:T1 Arg2:T8	

@@ -1,0 +1,17 @@
+T1	Drug 0 7	醋酸氟轻松乳膏
+T2	Disease 9 14	过敏性皮炎
+T3	Disease 15 20	异位性皮炎
+T4	Disease 21 26	接触性皮炎
+T5	Disease 27 32	脂溢性皮炎
+T6	Disease 33 35	湿疹
+T7	Disease 36 41	皮肤瘙痒症
+T8	Disease 42 45	银屑病
+T9	Disease 46 51	神经性皮炎
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Drug_Disease Arg1:T1 Arg2:T3	
+R3	Drug_Disease Arg1:T1 Arg2:T4	
+R4	Drug_Disease Arg1:T1 Arg2:T5	
+R5	Drug_Disease Arg1:T1 Arg2:T6	
+R6	Drug_Disease Arg1:T1 Arg2:T7	
+R7	Drug_Disease Arg1:T1 Arg2:T8	
+R8	Drug_Disease Arg1:T1 Arg2:T9	

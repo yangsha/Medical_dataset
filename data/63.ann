@@ -1,0 +1,7 @@
+T1	Drug 0 5	氟胞嘧啶片
+T2	Bacterial 8 12	念珠菌属
+T3	Bacterial 13 17	隐球菌属
+T4	Disease 20 22	感染
+R1	Drug_Disease Arg1:T1 Arg2:T4	
+R2	Bacterial_Disease Arg1:T2 Arg2:T4	
+R3	Bacterial_Disease Arg1:T3 Arg2:T4	

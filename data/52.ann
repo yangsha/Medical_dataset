@@ -1,0 +1,31 @@
+T1	Drug 1 7	夫西地酸乳膏
+T2	Bacterial 10 13	葡萄菌
+T3	Bacterial 14 17	链球菌
+T4	Bacterial 18 30	痤疮丙酸杆菌极小棒状杆菌
+T5	Bacterial 33 43	对夫西地酸敏感的细菌
+T6	Disease 46 50	皮肤感染
+R1	Bacterial_Disease Arg1:T5 Arg2:T6	
+R2	Drug_Disease Arg1:T1 Arg2:T6	
+T7	Symptom 61 64	脓包疮
+T8	Symptom 65 66	疖
+T9	Symptom 69 72	甲沟炎
+T10	Symptom 73 77	创伤感染
+T11	Symptom 78 80	须疮
+T12	Symptom 81 84	汗腺炎
+T13	Symptom 85 87	红癣
+T14	Symptom 88 91	毛囊炎
+T15	Symptom 92 97	寻常性痤疮
+R6	Disease_Symptom Arg1:T6 Arg2:T15	
+T16	Disease 105 116	面部和头部等部位的感染
+R7	Drug_Disease Arg1:T1 Arg2:T16	
+R8	Disease_Symptom Arg1:T6 Arg2:T14	
+R9	Disease_Symptom Arg1:T6 Arg2:T13	
+R10	Disease_Symptom Arg1:T6 Arg2:T12	
+R11	Disease_Symptom Arg1:T6 Arg2:T11	
+R12	Disease_Symptom Arg1:T6 Arg2:T10	
+R13	Disease_Symptom Arg1:T6 Arg2:T9	
+R14	Disease_Symptom Arg1:T6 Arg2:T8	
+R15	Disease_Symptom Arg1:T6 Arg2:T7	
+R3	Disease_Disease Arg1:T5 Arg2:T4	
+R4	Disease_Disease Arg1:T5 Arg2:T3	
+R5	Disease_Disease Arg1:T5 Arg2:T2	

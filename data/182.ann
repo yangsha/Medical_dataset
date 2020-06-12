@@ -1,0 +1,9 @@
+T1	Drug 0 7	维生素B6软膏
+T2	Disease 9 11	痤疮
+T3	Disease 12 15	酒渣鼻
+T4	Disease 16 21	脂溢性湿疹
+T5	Disease 22 25	皱皮症
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Drug_Disease Arg1:T1 Arg2:T3	
+R3	Drug_Disease Arg1:T1 Arg2:T4	
+R4	Drug_Disease Arg1:T1 Arg2:T5	

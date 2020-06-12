@@ -1,0 +1,9 @@
+T1	Drug 0 4	肺宁颗粒
+T2	Disease 6 10	肺内感染
+T3	Disease 11 17	慢性支气管炎
+T4	Disease 18 25	喘息性支气管炎
+T5	Disease 26 33	急性呼吸道感染
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Drug_Disease Arg1:T1 Arg2:T3	
+R3	Drug_Disease Arg1:T1 Arg2:T4	
+R4	Drug_Disease Arg1:T1 Arg2:T5	

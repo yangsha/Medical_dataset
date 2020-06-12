@@ -1,0 +1,5 @@
+T1	Drug 0 8	盐酸阿比多尔颗粒
+T2	Bacterial 13 21	A、B型流感病毒
+T3	Disease 25 31	上呼吸道感染
+R1	Drug_Disease Arg1:T1 Arg2:T3	
+R2	Bacterial_Disease Arg1:T2 Arg2:T3	

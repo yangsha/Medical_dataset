@@ -1,0 +1,9 @@
+T1	Drug 0 8	枯草杆菌活菌胶囊
+T2	Disease 11 15	急性腹泻
+T3	Bacterial 16 23	某些肠道致病菌
+T4	Disease 28 34	轻、中度腹泻
+T5	Disease 37 48	肠道菌群失调所致的腹泻
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Drug_Disease Arg1:T1 Arg2:T4	
+R3	Drug_Disease Arg1:T1 Arg2:T5	
+R4	Bacterial_Disease Arg1:T3 Arg2:T4	

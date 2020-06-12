@@ -1,0 +1,7 @@
+T1	Drug 0 6	复方土槿皮酊
+T2	Disease 9 11	趾痒
+T3	Disease 12 16	皮肤滋痒
+T4	Disease 17 21	一般癣疾
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Drug_Disease Arg1:T1 Arg2:T3	
+R3	Drug_Disease Arg1:T1 Arg2:T4	

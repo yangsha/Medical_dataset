@@ -1,0 +1,21 @@
+T1	Drug 0 9	复方酮康唑发用洗剂
+T2	Disease 24 26	感染
+T3	Disease 28 32	头皮糠疹
+T4	Disease 38 43	脂溢性皮炎
+T5	Disease 44 47	花斑癣
+T6	Disease 54 59	脂溢性皮炎
+T7	Disease 60 64	头皮糠疹
+T8	Symptom 67 69	脱屑
+T9	Symptom 70 72	瘙痒
+T10	Bacterial 17 21	多种真菌
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Bacterial_Disease Arg1:T10 Arg2:T2	
+R3	Disease_Disease Arg1:T2 Arg2:T3	
+R4	Disease_Disease Arg1:T2 Arg2:T4	
+R5	Disease_Disease Arg1:T2 Arg2:T5	
+R6	Drug_Disease Arg1:T1 Arg2:T6	
+R7	Drug_Disease Arg1:T1 Arg2:T7	
+R8	Disease_Symptom Arg1:T7 Arg2:T8	
+R9	Disease_Symptom Arg1:T7 Arg2:T9	
+R10	Disease_Symptom Arg1:T6 Arg2:T8	
+R11	Disease_Symptom Arg1:T6 Arg2:T9	

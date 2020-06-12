@@ -1,0 +1,23 @@
+T1	Drug 0 6	硝酸奥昔康唑
+T2	Bacterial 12 17	红色毛癣菌
+T3	Bacterial 18 23	须癣毛癣菌
+T4	Bacterial 25 31	絮状表皮癣菌
+T5	Disease 36 38	足癣
+T6	Disease 39 41	股癣
+T7	Disease 42 44	体癣
+T8	Bacterial 46 51	康秕孢子菌
+T9	Disease 54 56	糠疹
+R1	Drug_Disease Arg1:T1 Arg2:T5	
+R2	Drug_Disease Arg1:T1 Arg2:T6	
+R3	Drug_Disease Arg1:T1 Arg2:T7	
+R4	Drug_Disease Arg1:T1 Arg2:T9	
+R5	Bacterial_Disease Arg1:T2 Arg2:T5	
+R6	Bacterial_Disease Arg1:T2 Arg2:T6	
+R7	Bacterial_Disease Arg1:T2 Arg2:T7	
+R8	Bacterial_Disease Arg1:T3 Arg2:T5	
+R9	Bacterial_Disease Arg1:T3 Arg2:T6	
+R10	Bacterial_Disease Arg1:T3 Arg2:T7	
+R11	Bacterial_Disease Arg1:T4 Arg2:T5	
+R12	Bacterial_Disease Arg1:T4 Arg2:T6	
+R13	Bacterial_Disease Arg1:T4 Arg2:T7	
+R14	Bacterial_Disease Arg1:T8 Arg2:T9	

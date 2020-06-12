@@ -1,0 +1,41 @@
+T1	Drug 0 7	盐酸特比萘芬片
+T2	Disease 65 75	皮肤、头发和甲的感染
+T3	Bacterial 14 17	毛癣菌
+T4	Bacterial 49 54	狗小孢子菌
+T5	Bacterial 55 61	絮状表皮癣菌
+T6	Bacterial 18 23	红色毛癣菌
+T7	Bacterial 24 29	须癣毛癣菌
+T8	Bacterial 30 35	疣状毛癣菌
+T9	Bacterial 36 40	断发癣菌
+T10	Bacterial 41 46	紫色毛癣菌
+T11	Disease 81 85	各种癣病
+T12	Disease 86 88	体癣
+T13	Disease 89 91	股癣
+T14	Disease 92 95	手足癣
+T15	Disease 96 98	头癣
+T16	Bacterial 103 106	念珠菌
+T17	Bacterial 107 112	白色念珠菌
+T18	Disease 117 124	皮肤酵母菌感染
+T19	Bacterial 131 134	发霉菌
+T20	Disease 137 139	甲癣
+T21	Disease 140 145	甲真菌感染
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Drug_Disease Arg1:T1 Arg2:T11	
+R3	Drug_Disease Arg1:T1 Arg2:T18	
+R4	Drug_Disease Arg1:T1 Arg2:T20	
+R5	Bacterial_Disease Arg1:T3 Arg2:T2	
+R6	Bacterial_Disease Arg1:T4 Arg2:T2	
+R7	Bacterial_Disease Arg1:T5 Arg2:T2	
+R8	Disease_Disease Arg1:T3 Arg2:T6	
+R9	Disease_Disease Arg1:T3 Arg2:T7	
+R10	Disease_Disease Arg1:T3 Arg2:T8	
+R11	Disease_Disease Arg1:T3 Arg2:T9	
+R12	Disease_Disease Arg1:T3 Arg2:T10	
+R13	Disease_Disease Arg1:T11 Arg2:T12	
+R14	Disease_Disease Arg1:T11 Arg2:T13	
+R15	Disease_Disease Arg1:T11 Arg2:T14	
+R16	Disease_Disease Arg1:T11 Arg2:T15	
+R17	Bacterial_Disease Arg1:T16 Arg2:T18	
+R18	Disease_Disease Arg1:T16 Arg2:T17	
+R19	Bacterial_Disease Arg1:T19 Arg2:T20	
+R20	Disease_Disease Arg1:T20 Arg2:T21	

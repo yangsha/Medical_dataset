@@ -1,0 +1,49 @@
+T1	Drug 0 5	磷霉素钙片
+T2	Bacterial 8 18	对磷霉素敏感的致病菌
+T3	Disease 23 25	感染
+T4	Disease 30 34	肠道感染
+T5	Disease 35 40	细菌性肠炎
+T6	Disease 41 43	菌痢
+T7	Disease 48 54	泌尿系统感染
+T8	Disease 55 58	膀胱炎
+T9	Disease 59 63	肾盂肾炎
+T10	Disease 64 67	尿道炎
+T11	Disease 72 81	皮肤科及软组织感染
+T12	Disease 82 84	疖病
+T13	Disease 85 87	炭疽
+T14	Disease 88 91	汗腺炎
+T15	Disease 92 96	淋巴结炎
+T16	Disease 97 100	毛囊炎
+T17	Disease 105 110	呼吸道感染
+T18	Disease 111 114	鼻咽炎
+T19	Disease 115 119	扁桃体炎
+T20	Disease 120 123	气管炎
+T21	Disease 124 132	早期慢性支气管炎
+T22	Disease 140 143	麦粒肿
+T23	Disease 144 147	泪囊炎
+T24	Disease 153 156	阴道炎
+T25	Disease 157 161	子宫颈炎
+R1	Drug_Disease Arg1:T1 Arg2:T3	
+R2	Bacterial_Disease Arg1:T2 Arg2:T3	
+R3	Disease_Disease Arg1:T3 Arg2:T4	
+R4	Disease_Disease Arg1:T3 Arg2:T7	
+R5	Disease_Disease Arg1:T3 Arg2:T11	
+R6	Disease_Disease Arg1:T3 Arg2:T17	
+R7	Disease_Disease Arg1:T4 Arg2:T5	
+R8	Disease_Disease Arg1:T4 Arg2:T6	
+R9	Disease_Disease Arg1:T7 Arg2:T8	
+R10	Disease_Disease Arg1:T7 Arg2:T9	
+R11	Disease_Disease Arg1:T7 Arg2:T10	
+R12	Disease_Disease Arg1:T11 Arg2:T12	
+R13	Disease_Disease Arg1:T11 Arg2:T13	
+R14	Disease_Disease Arg1:T11 Arg2:T14	
+R15	Disease_Disease Arg1:T11 Arg2:T15	
+R16	Disease_Disease Arg1:T11 Arg2:T16	
+R17	Disease_Disease Arg1:T17 Arg2:T18	
+R18	Disease_Disease Arg1:T17 Arg2:T19	
+R19	Disease_Disease Arg1:T17 Arg2:T20	
+R20	Disease_Disease Arg1:T17 Arg2:T21	
+R21	Drug_Disease Arg1:T1 Arg2:T22	
+R22	Drug_Disease Arg1:T1 Arg2:T23	
+R23	Drug_Disease Arg1:T1 Arg2:T24	
+R24	Drug_Disease Arg1:T1 Arg2:T25	

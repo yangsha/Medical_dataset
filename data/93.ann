@@ -1,0 +1,11 @@
+T1	Drug 0 5	裸花紫珠片
+T2	Bacterial 7 9	细菌
+T3	Disease 14 16	炎症
+T4	Disease 17 24	急性传染性肝炎
+T5	Disease 25 28	呼吸道
+T6	Disease 29 34	消化道出血
+R1	Drug_Disease Arg1:T1 Arg2:T3	
+R2	Bacterial_Disease Arg1:T2 Arg2:T3	
+R3	Drug_Disease Arg1:T1 Arg2:T4	
+R4	Drug_Disease Arg1:T1 Arg2:T5	
+R5	Drug_Disease Arg1:T1 Arg2:T6	

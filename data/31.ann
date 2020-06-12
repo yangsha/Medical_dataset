@@ -1,0 +1,15 @@
+T1	Drug 1 6	润肌皮肤膏
+T2	Disease 8 12	皮肤疮癣
+T3	Disease 13 17	粉刺疙瘩
+T4	Disease 18 22	酒糟赤鼻
+T5	Disease 23 25	雀斑
+T6	Disease 26 28	汗斑
+T7	Disease 29 32	白癜风
+T8	Disease 33 37	湿毒脚气
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Drug_Disease Arg1:T1 Arg2:T3	
+R3	Drug_Disease Arg1:T1 Arg2:T4	
+R4	Drug_Disease Arg1:T1 Arg2:T5	
+R5	Drug_Disease Arg1:T1 Arg2:T6	
+R6	Drug_Disease Arg1:T1 Arg2:T7	
+R7	Drug_Disease Arg1:T1 Arg2:T8	

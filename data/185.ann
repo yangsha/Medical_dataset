@@ -1,0 +1,3 @@
+T1	Drug 0 7	磺胺嘧啶银乳膏
+T2	Disease 14 25	轻度烧烫伤继发创面感染
+R1	Drug_Disease Arg1:T1 Arg2:T2	

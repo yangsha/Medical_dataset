@@ -1,0 +1,18 @@
+T1	Drug 0 6	卢立康唑乳膏
+T2	Bacterial 9 12	敏感菌
+T3	Disease 15 23	皮肤浅表真菌感染
+T4	Disease 24 26	足癣
+T5	Disease 27 29	体癣
+T6	Disease 30 32	股癣
+T7	Disease 37 44	皮肤念珠球菌病
+T8	Disease 45 48	花斑癣
+R1	Drug_Disease Arg1:T1 Arg2:T3	
+R2	Drug_Disease Arg1:T1 Arg2:T4	
+R3	Drug_Disease Arg1:T1 Arg2:T5	
+R4	Drug_Disease Arg1:T1 Arg2:T6	
+R5	Drug_Disease Arg1:T1 Arg2:T7	
+R6	Drug_Disease Arg1:T1 Arg2:T8	
+R7	Bacterial_Disease Arg1:T2 Arg2:T3	
+R8	Bacterial_Disease Arg1:T2 Arg2:T4	
+R9	Bacterial_Disease Arg1:T2 Arg2:T5	
+R10	Bacterial_Disease Arg1:T2 Arg2:T6	

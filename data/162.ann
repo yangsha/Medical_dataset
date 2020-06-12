@@ -1,0 +1,11 @@
+T1	Drug 0 6	积雪苷霜软膏
+T2	Disease 10 12	外伤
+T3	Disease 13 17	手术创伤
+T4	Disease 18 20	烧伤
+T5	Disease 21 25	疤痕疙瘩
+T6	Disease 26 29	硬皮病
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Drug_Disease Arg1:T1 Arg2:T3	
+R3	Drug_Disease Arg1:T1 Arg2:T4	
+R4	Drug_Disease Arg1:T1 Arg2:T5	
+R5	Drug_Disease Arg1:T1 Arg2:T6	

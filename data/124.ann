@@ -1,0 +1,110 @@
+T1	Drug 0 6	头孢地尼胶囊
+T2	Bacterial 14 17	敏感菌
+T3	Disease 20 27	轻度至中度感染
+T4	Disease 39 46	社区获得性肺炎
+T5	Bacterial 48 54	流感嗜血杆菌
+T6	Bacterial 57 66	产β-内酰胺酶菌株
+T7	Bacterial 68 75	副流感嗜血杆菌
+T8	Bacterial 78 87	产β-内酰胺酶菌株
+T9	Bacterial 89 96	金黄色葡萄球菌
+T10	Bacterial 97 104	青霉素敏感菌株
+T11	Bacterial 106 114	卡他性摩拉克氏菌
+T12	Bacterial 117 126	产β-内酰胺酶菌株
+T13	Disease 133 143	慢性支气管炎急性发作
+T14	Bacterial 145 151	流感嗜血杆菌
+T15	Bacterial 165 172	副流感嗜血杆菌
+T16	Bacterial 175 184	产β-内酰胺酶菌株
+T17	Bacterial 154 163	产β-内酰胺酶菌株
+T18	Bacterial 186 193	金黄色葡萄球菌
+T19	Bacterial 194 201	青霉素敏感菌株
+T20	Bacterial 203 211	卡他性摩拉克氏菌
+T21	Bacterial 214 223	产β-内酰胺酶菌株
+T22	Disease 230 237	急性上颌鼻窦炎
+T23	Bacterial 239 245	流感嗜血杆菌
+T24	Bacterial 248 257	产β-内酰胺酶菌株
+T25	Bacterial 259 266	金黄色葡萄球菌
+T26	Bacterial 267 274	青霉素敏感菌株
+T27	Bacterial 276 284	卡他性摩拉克氏菌
+T28	Bacterial 287 296	产β-内酰胺酶菌株
+T29	Disease 314 316	咽炎
+T30	Disease 317 321	扁桃腺炎
+T31	Bacterial 323 328	化脓链球菌
+T32	Bacterial 343 348	化脓链球菌
+T33	Disease 351 356	口咽部感染
+T34	Disease 408 421	非复杂性皮肤和皮肤组织感染
+T35	Bacterial 423 427	葡萄球菌
+T36	Bacterial 430 439	产β-内酰胺酶菌株
+T37	Bacterial 441 446	化脓链球菌
+T38	Bacterial 365 370	化脓链球菌
+T39	Disease 373 386	咽炎或扁桃腺炎并发的风湿热
+T40	Drug 392 397	肌注青霉素
+T41	Disease 461 466	急性中耳炎
+T42	Bacterial 468 474	流感嗜血杆菌
+T43	Bacterial 477 486	产β-内酰胺酶菌株
+T44	Bacterial 488 493	肺炎链球菌
+T45	Bacterial 494 501	青霉素敏感菌株
+T46	Bacterial 503 511	卡他性摩拉克氏菌
+T47	Bacterial 514 523	产β-内酰胺酶菌株
+T48	Disease 530 532	咽炎
+T49	Disease 533 537	扁桃腺炎
+T50	Bacterial 539 544	化脓链球菌
+T51	Disease 550 563	非复杂性皮肤和皮肤组织感染
+T52	Bacterial 565 572	金黄色葡萄球菌
+T53	Bacterial 575 584	产β-内酰胺酶菌株
+T54	Bacterial 586 591	化脓链球菌
+R1	Drug_Disease Arg1:T1 Arg2:T3	
+R2	Bacterial_Disease Arg1:T2 Arg2:T3	
+R3	Disease_Disease Arg1:T3 Arg2:T4	
+R4	Bacterial_Disease Arg1:T5 Arg2:T4	
+R5	Disease_Disease Arg1:T5 Arg2:T6	
+R6	Bacterial_Disease Arg1:T7 Arg2:T4	
+R7	Disease_Disease Arg1:T7 Arg2:T8	
+R8	Bacterial_Disease Arg1:T9 Arg2:T4	
+R9	Disease_Disease Arg1:T9 Arg2:T10	
+R10	Bacterial_Disease Arg1:T11 Arg2:T4	
+R11	Disease_Disease Arg1:T11 Arg2:T12	
+R12	Disease_Disease Arg1:T3 Arg2:T13	
+R13	Bacterial_Disease Arg1:T14 Arg2:T13	
+R14	Disease_Disease Arg1:T14 Arg2:T17	
+R15	Bacterial_Disease Arg1:T15 Arg2:T13	
+R16	Disease_Disease Arg1:T15 Arg2:T16	
+R17	Bacterial_Disease Arg1:T18 Arg2:T13	
+R18	Disease_Disease Arg1:T18 Arg2:T19	
+R19	Bacterial_Disease Arg1:T20 Arg2:T13	
+R20	Disease_Disease Arg1:T20 Arg2:T21	
+R21	Disease_Disease Arg1:T3 Arg2:T22	
+R22	Bacterial_Disease Arg1:T23 Arg2:T22	
+R23	Disease_Disease Arg1:T23 Arg2:T24	
+R24	Bacterial_Disease Arg1:T25 Arg2:T22	
+R25	Disease_Disease Arg1:T25 Arg2:T26	
+R26	Bacterial_Disease Arg1:T27 Arg2:T22	
+R27	Disease_Disease Arg1:T27 Arg2:T28	
+R28	Disease_Disease Arg1:T3 Arg2:T29	
+R29	Disease_Disease Arg1:T3 Arg2:T30	
+R30	Bacterial_Disease Arg1:T31 Arg2:T30	
+R31	Bacterial_Disease Arg1:T31 Arg2:T29	
+T55	Drug 335 339	头孢地尼
+R32	Drug_Disease Arg1:T55 Arg2:T33	
+R33	Bacterial_Disease Arg1:T32 Arg2:T33	
+R34	Bacterial_Disease Arg1:T38 Arg2:T39	
+R35	Drug_Disease Arg1:T55 Arg2:T39	
+R36	Drug_Disease Arg1:T40 Arg2:T39	
+R37	Disease_Disease Arg1:T3 Arg2:T34	
+R38	Bacterial_Disease Arg1:T35 Arg2:T34	
+R39	Disease_Disease Arg1:T35 Arg2:T36	
+R40	Bacterial_Disease Arg1:T37 Arg2:T34	
+R41	Disease_Disease Arg1:T3 Arg2:T41	
+R42	Bacterial_Disease Arg1:T42 Arg2:T41	
+R43	Disease_Disease Arg1:T42 Arg2:T43	
+R44	Bacterial_Disease Arg1:T44 Arg2:T41	
+R45	Disease_Disease Arg1:T44 Arg2:T45	
+R46	Bacterial_Disease Arg1:T46 Arg2:T41	
+R47	Disease_Disease Arg1:T46 Arg2:T47	
+R48	Disease_Disease Arg1:T3 Arg2:T48	
+R49	Disease_Disease Arg1:T3 Arg2:T49	
+R50	Disease_Disease Arg1:T3 Arg2:T51	
+R51	Bacterial_Disease Arg1:T50 Arg2:T49	
+R52	Bacterial_Disease Arg1:T50 Arg2:T48	
+R53	Bacterial_Disease Arg1:T52 Arg2:T51	
+R54	Disease_Disease Arg1:T52 Arg2:T53	
+R55	Bacterial_Disease Arg1:T54 Arg2:T51	

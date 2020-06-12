@@ -1,0 +1,5 @@
+T1	Drug 0 5	赛庚啶乳膏
+T2	Disease 7 23	过敏、接触性皮炎性荨麻疹肤瘙痒症
+T3	Disease 25 27	湿疹
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Drug_Disease Arg1:T1 Arg2:T3	

@@ -1,0 +1,11 @@
+T1	Drug 0 4	众生胶囊
+T2	Disease 6 12	上呼吸道感染
+T3	Disease 13 20	急、慢性咽喉炎
+T4	Disease 21 27	急性扁桃腺炎
+T5	Disease 28 35	化脓性扁桃腺炎
+T6	Disease 36 38	疮毒
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Drug_Disease Arg1:T1 Arg2:T3	
+R3	Drug_Disease Arg1:T1 Arg2:T4	
+R4	Drug_Disease Arg1:T1 Arg2:T5	
+R5	Drug_Disease Arg1:T1 Arg2:T6	

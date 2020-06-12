@@ -1,0 +1,21 @@
+T1	Drug 0 5	丹参酮胶囊
+T2	Disease 7 9	痤疮
+T3	Disease 10 14	扁桃腺炎
+T4	Disease 15 19	外耳道炎
+T5	Disease 20 21	疖
+T6	Disease 22 23	痈
+T7	Disease 24 28	外伤感染
+T8	Disease 29 33	烧伤感染
+T9	Disease 34 37	乳腺炎
+T10	Disease 38 43	蜂窝组织炎
+T11	Disease 44 47	骨髓炎
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Drug_Disease Arg1:T1 Arg2:T3	
+R3	Drug_Disease Arg1:T1 Arg2:T4	
+R4	Drug_Disease Arg1:T1 Arg2:T5	
+R5	Drug_Disease Arg1:T1 Arg2:T6	
+R6	Drug_Disease Arg1:T1 Arg2:T7	
+R7	Drug_Disease Arg1:T1 Arg2:T8	
+R8	Drug_Disease Arg1:T1 Arg2:T9	
+R9	Drug_Disease Arg1:T1 Arg2:T10	
+R10	Drug_Disease Arg1:T1 Arg2:T11	

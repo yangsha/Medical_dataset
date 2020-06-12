@@ -1,0 +1,3 @@
+T1	Drug 0 5	七参连软膏
+T2	Disease 18 24	湿疹渗出不多
+R1	Drug_Disease Arg1:T1 Arg2:T2	

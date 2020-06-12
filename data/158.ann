@@ -1,0 +1,9 @@
+T1	Drug 0 8	工牛黄甲硝唑胶囊
+T2	Disease 10 17	急性智齿冠周炎
+T3	Disease 18 24	局部牙槽脓肿
+T4	Disease 25 28	牙髓炎
+T5	Disease 29 33	根尖周炎
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Drug_Disease Arg1:T1 Arg2:T3	
+R3	Drug_Disease Arg1:T1 Arg2:T4	
+R4	Drug_Disease Arg1:T1 Arg2:T5	

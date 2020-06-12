@@ -1,0 +1,13 @@
+T1	Drug 0 8	盐酸西替利嗪滴剂
+T2	Disease 12 17	季节性鼻炎
+T3	Disease 18 25	长期过敏性鼻炎
+T4	Disease 27 31	眼结膜炎
+T5	Disease 32 34	过敏
+T6	Symptom 37 39	瘙痒
+T7	Symptom 40 43	荨麻疹
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Drug_Disease Arg1:T1 Arg2:T3	
+R3	Drug_Disease Arg1:T1 Arg2:T4	
+R4	Drug_Disease Arg1:T1 Arg2:T5	
+R5	Disease_Symptom Arg1:T5 Arg2:T6	
+R6	Disease_Symptom Arg1:T5 Arg2:T7	

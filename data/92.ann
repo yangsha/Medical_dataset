@@ -1,0 +1,17 @@
+T1	Drug 0 7	大蒜素肠溶胶囊
+T2	Disease 12 19	真菌和细菌感染
+T3	Disease 23 28	急慢性菌痢
+T4	Disease 29 31	肠炎
+T5	Disease 32 35	百日咳
+T6	Disease 36 47	肺部和消化道的真菌感染
+T7	Disease 48 56	白色念珠菌菌血症
+T8	Disease 57 64	隐球菌性脑膜炎
+T9	Disease 65 68	肺结核
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Drug_Disease Arg1:T1 Arg2:T3	
+R3	Drug_Disease Arg1:T1 Arg2:T4	
+R4	Drug_Disease Arg1:T1 Arg2:T5	
+R5	Drug_Disease Arg1:T1 Arg2:T6	
+R6	Drug_Disease Arg1:T1 Arg2:T7	
+R7	Drug_Disease Arg1:T1 Arg2:T8	
+R8	Drug_Disease Arg1:T1 Arg2:T9	

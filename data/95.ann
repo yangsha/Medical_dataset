@@ -1,0 +1,39 @@
+T1	Drug 0 8	布洛芬缓释混悬液
+T2	Disease 38 40	感冒
+T3	Disease 41 49	急性上呼吸道感染
+T4	Disease 50 56	急 性咽喉炎
+T5	Symptom 62 64	发热
+T6	Disease 93 95	扭伤
+T7	Disease 96 98	劳损
+T8	Disease 99 102	肩周炎
+T9	Disease 103 106	滑囊炎
+T10	Disease 107 109	肌腱
+T11	Disease 110 113	腱鞘炎
+T12	Disease 119 121	痛经
+T13	Disease 122 124	牙痛
+T14	Disease 125 129	术后疼痛
+T15	Disease 131 135	腰部疼痛
+T16	Disease 141 148	类风湿性关节炎
+T17	Disease 149 153	骨关节炎
+T18	Disease 154 164	其它非类风湿性关节炎
+T19	Disease 165 169	急性痛风
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Drug_Disease Arg1:T1 Arg2:T3	
+R3	Drug_Disease Arg1:T1 Arg2:T4	
+R4	Disease_Symptom Arg1:T2 Arg2:T5	
+R5	Disease_Symptom Arg1:T3 Arg2:T5	
+R6	Disease_Symptom Arg1:T4 Arg2:T5	
+R7	Drug_Disease Arg1:T1 Arg2:T6	
+R8	Drug_Disease Arg1:T1 Arg2:T7	
+R9	Drug_Disease Arg1:T1 Arg2:T8	
+R10	Drug_Disease Arg1:T1 Arg2:T9	
+R11	Drug_Disease Arg1:T1 Arg2:T10	
+R12	Drug_Disease Arg1:T1 Arg2:T11	
+R13	Drug_Disease Arg1:T1 Arg2:T12	
+R14	Drug_Disease Arg1:T1 Arg2:T13	
+R15	Drug_Disease Arg1:T1 Arg2:T14	
+R16	Drug_Disease Arg1:T1 Arg2:T15	
+R17	Drug_Disease Arg1:T1 Arg2:T16	
+R18	Drug_Disease Arg1:T1 Arg2:T17	
+R19	Drug_Disease Arg1:T1 Arg2:T18	
+R20	Drug_Disease Arg1:T1 Arg2:T19	

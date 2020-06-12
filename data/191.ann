@@ -1,0 +1,11 @@
+T1	Drug 0 8	新霉素氟轻松乳膏
+T2	Disease 10 15	过敏性皮炎
+T3	Disease 16 23	亚急性慢性湿疹
+T4	Disease 24 28	阴囊湿疹
+T5	Disease 29 34	皮肤瘙痒症
+T6	Disease 35 39	外阴瘙痒
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Drug_Disease Arg1:T1 Arg2:T3	
+R3	Drug_Disease Arg1:T1 Arg2:T4	
+R4	Drug_Disease Arg1:T1 Arg2:T5	
+R5	Drug_Disease Arg1:T1 Arg2:T6	

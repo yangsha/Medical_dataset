@@ -1,0 +1,33 @@
+T1	Drug 0 7	乙酰螺旋霉素片
+T2	Bacterial 10 16	敏感葡萄球菌
+T3	Bacterial 17 21	链球菌属
+T4	Bacterial 22 27	肺炎链球菌
+T5	Disease 30 36	轻、中度感染
+T6	Disease 40 42	咽炎
+T7	Disease 43 47	扁桃体炎
+T8	Disease 48 51	鼻窦炎
+T9	Disease 52 55	中耳炎
+T10	Disease 56 59	牙周炎
+T11	Disease 60 66	急性支气管炎
+T12	Disease 67 77	慢性支气管炎急性发作
+T13	Disease 78 80	肺炎
+T14	Disease 81 88	非淋菌性尿道炎
+T15	Disease 89 96	皮肤软组织感染
+T16	Disease 103 108	隐孢子虫病
+T17	Disease 114 123	妊娠期妇女弓形体病
+R1	Drug_Disease Arg1:T1 Arg2:T5	
+R2	Bacterial_Disease Arg1:T4 Arg2:T5	
+R3	Bacterial_Disease Arg1:T3 Arg2:T5	
+R4	Bacterial_Disease Arg1:T2 Arg2:T5	
+R5	Disease_Disease Arg1:T5 Arg2:T6	
+R6	Disease_Disease Arg1:T5 Arg2:T7	
+R7	Disease_Disease Arg1:T5 Arg2:T8	
+R8	Disease_Disease Arg1:T5 Arg2:T9	
+R9	Disease_Disease Arg1:T5 Arg2:T10	
+R10	Disease_Disease Arg1:T5 Arg2:T11	
+R11	Disease_Disease Arg1:T5 Arg2:T12	
+R12	Disease_Disease Arg1:T5 Arg2:T13	
+R13	Disease_Disease Arg1:T5 Arg2:T14	
+R14	Disease_Disease Arg1:T5 Arg2:T15	
+R15	Drug_Disease Arg1:T1 Arg2:T16	
+R16	Drug_Disease Arg1:T1 Arg2:T17	

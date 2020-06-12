@@ -1,0 +1,5 @@
+T1	Drug 0 7	小儿咳喘灵颗粒
+T2	Disease 9 15	上呼吸道感染
+T3	Symptom 18 20	咳嗽
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Disease_Symptom Arg1:T2 Arg2:T3	

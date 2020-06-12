@@ -1,0 +1,9 @@
+T1	Drug 0 12	硝呋太尔制霉素阴道软胶囊
+T2	Disease 17 23	细菌性阴道病
+T3	Disease 24 30	滴虫性阴道炎
+T4	Disease 31 40	念珠菌性外阴阴道炎
+T5	Disease 41 47	阴道混合感染
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Drug_Disease Arg1:T1 Arg2:T3	
+R3	Drug_Disease Arg1:T1 Arg2:T4	
+R4	Drug_Disease Arg1:T1 Arg2:T5	

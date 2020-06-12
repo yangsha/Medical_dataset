@@ -1,0 +1,19 @@
+T1	Drug 0 6	清开灵口服液
+T2	Symptom 20 22	发热
+T3	Symptom 23 27	咽喉肿痛
+T4	Symptom 28 32	舌质红绛
+T5	Symptom 33 35	苔黄
+T6	Symptom 36 38	脉数
+T7	Disease 40 46	上呼吸道感染
+T8	Disease 47 52	病毒性感冒
+T9	Disease 53 57	急性咽炎
+T10	Disease 58 63	急性气管炎
+R1	Drug_Disease Arg1:T1 Arg2:T7	
+R2	Drug_Disease Arg1:T1 Arg2:T8	
+R3	Drug_Disease Arg1:T1 Arg2:T9	
+R4	Drug_Disease Arg1:T1 Arg2:T10	
+R5	Valid Arg1:T1 Arg2:T2	
+R6	Valid Arg1:T1 Arg2:T3	
+R7	Valid Arg1:T1 Arg2:T4	
+R8	Valid Arg1:T1 Arg2:T5	
+R9	Valid Arg1:T1 Arg2:T6	

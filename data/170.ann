@@ -1,0 +1,7 @@
+T1	Drug 0 5	甲氧沙林片
+T2	Disease 8 11	白癜风
+T3	Disease 12 15	牛皮癣
+T4	Disease 16 19	银屑病
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Drug_Disease Arg1:T1 Arg2:T3	
+R3	Disease_Disease Arg1:T3 Arg2:T4	

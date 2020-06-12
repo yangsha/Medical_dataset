@@ -1,0 +1,46 @@
+T1	Drug 1 7	左氧氟沙星片
+T2	Bacterial 10 13	敏感菌
+T3	Disease 21 29	泌尿生殖系统感染
+T4	Disease 32 43	单纯性、复杂性尿路感染
+T5	Disease 44 51	细菌性前列腺炎
+T6	Disease 52 60	淋病奈瑟菌尿道炎
+T7	Disease 61 64	宫颈炎
+T8	Disease 79 84	呼吸道感染
+T9	Bacterial 87 95	敏感革兰阴性杆菌
+T10	Disease 97 106	支气管感染急性发作
+T11	Disease 107 111	肺部感染
+T12	Disease 116 121	胃肠道感染
+T13	Bacterial 123 127	志贺菌属
+T14	Bacterial 128 132	沙门菌属
+T15	Bacterial 133 141	产肠毒素大肠杆菌
+T16	Bacterial 142 148	亲水气单胞菌
+T17	Bacterial 149 154	副溶血弧菌
+T18	Disease 162 164	伤寒
+T19	Disease 169 170	骨
+T20	Disease 171 175	关节感染
+T21	Disease 180 187	皮肤软组织感染
+T22	Disease 192 195	败血症
+R1	Drug_Disease Arg1:T1 Arg2:T3	
+R2	Drug_Disease Arg1:T1 Arg2:T8	
+R3	Drug_Disease Arg1:T1 Arg2:T12	
+R4	Drug_Disease Arg1:T1 Arg2:T18	
+R5	Drug_Disease Arg1:T1 Arg2:T19	
+R6	Drug_Disease Arg1:T1 Arg2:T20	
+R7	Drug_Disease Arg1:T1 Arg2:T21	
+R8	Drug_Disease Arg1:T1 Arg2:T22	
+R9	Bacterial_Disease Arg1:T2 Arg2:T3	
+R10	Bacterial_Disease Arg1:T2 Arg2:T8	
+R11	Bacterial_Disease Arg1:T2 Arg2:T12	
+R12	Disease_Disease Arg1:T3 Arg2:T4	
+R13	Disease_Disease Arg1:T3 Arg2:T5	
+R14	Disease_Disease Arg1:T3 Arg2:T6	
+R15	Disease_Disease Arg1:T3 Arg2:T7	
+R16	Disease_Disease Arg1:T8 Arg2:T10	
+R17	Disease_Disease Arg1:T8 Arg2:T11	
+R18	Bacterial_Disease Arg1:T9 Arg2:T10	
+R19	Bacterial_Disease Arg1:T9 Arg2:T11	
+R20	Bacterial_Disease Arg1:T17 Arg2:T12	
+R21	Bacterial_Disease Arg1:T16 Arg2:T12	
+R22	Bacterial_Disease Arg1:T15 Arg2:T12	
+R23	Bacterial_Disease Arg1:T14 Arg2:T12	
+R24	Bacterial_Disease Arg1:T13 Arg2:T12	

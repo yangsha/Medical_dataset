@@ -1,0 +1,9 @@
+T1	Drug 0 5	白癜风胶囊
+T2	Disease 30 33	白癜风
+T3	Symptom 36 42	白斑散在分布
+T4	Symptom 44 48	色泽苍白
+T5	Symptom 49 54	边界较明显
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Disease_Symptom Arg1:T2 Arg2:T3	
+R3	Disease_Symptom Arg1:T2 Arg2:T4	
+R4	Disease_Symptom Arg1:T2 Arg2:T5	

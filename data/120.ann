@@ -1,0 +1,21 @@
+T1	Drug 0 6	头孢拉定胶囊
+T2	Bacterial 8 13	敏感致病菌
+T3	Disease 16 20	急性咽炎
+T4	Disease 21 25	扁桃体炎
+T5	Disease 26 29	中耳炎
+T6	Disease 30 34	支气管炎
+T7	Disease 35 37	肺炎
+T8	Disease 38 43	呼吸道感染
+T9	Disease 44 52	泌尿生殖系统感染
+T10	Disease 53 60	皮肤软组织感染
+R1	Drug_Disease Arg1:T1 Arg2:T8	
+R2	Drug_Disease Arg1:T1 Arg2:T9	
+R3	Drug_Disease Arg1:T1 Arg2:T10	
+R4	Bacterial_Disease Arg1:T2 Arg2:T8	
+R5	Bacterial_Disease Arg1:T2 Arg2:T9	
+R6	Bacterial_Disease Arg1:T2 Arg2:T10	
+R7	Disease_Disease Arg1:T8 Arg2:T7	
+R8	Disease_Disease Arg1:T8 Arg2:T6	
+R9	Disease_Disease Arg1:T8 Arg2:T5	
+R10	Disease_Disease Arg1:T8 Arg2:T4	
+R11	Disease_Disease Arg1:T8 Arg2:T3	

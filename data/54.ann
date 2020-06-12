@@ -1,0 +1,5 @@
+T1	Drug 0 7	水杨酸复合洗剂
+T2	Bacterial 9 11	真菌
+T3	Disease 16 24	鳞屑化型手、足癣
+R1	Drug_Disease Arg1:T1 Arg2:T3	
+R2	Bacterial_Disease Arg1:T2 Arg2:T3	

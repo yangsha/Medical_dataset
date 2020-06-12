@@ -1,0 +1,43 @@
+T1	Drug 0 8	阿奇霉素干混悬剂
+T2	Bacterial 17 23	化脓性链球菌
+T3	Bacterial 42 46	敏感细菌
+T4	Disease 26 30	急性咽炎
+T5	Disease 31 37	急性扁桃体炎
+T6	Disease 49 52	鼻窦炎
+T7	Disease 53 58	急性中耳炎
+T8	Disease 59 65	急性支气管炎
+T9	Disease 66 76	慢性支气管炎急性发作
+T10	Bacterial 81 86	肺炎链球菌
+T11	Bacterial 87 93	流感嗜血杆菌
+T12	Bacterial 95 100	肺炎支原体
+T13	Disease 103 105	肺炎
+T14	Bacterial 110 115	沙眼衣原体
+T15	Bacterial 119 126	耐药淋病奈瑟菌
+T16	Disease 129 132	尿道炎
+T17	Disease 133 136	宫颈炎
+T18	Bacterial 141 145	敏感细菌
+T19	Disease 148 155	皮肤软组织感染
+R1	Drug_Disease Arg1:T1 Arg2:T4	
+R2	Drug_Disease Arg1:T1 Arg2:T5	
+R3	Bacterial_Disease Arg1:T2 Arg2:T4	
+R4	Bacterial_Disease Arg1:T2 Arg2:T5	
+R5	Drug_Disease Arg1:T1 Arg2:T6	
+R6	Drug_Disease Arg1:T1 Arg2:T7	
+R7	Drug_Disease Arg1:T1 Arg2:T8	
+R8	Drug_Disease Arg1:T1 Arg2:T9	
+R9	Bacterial_Disease Arg1:T3 Arg2:T6	
+R10	Bacterial_Disease Arg1:T3 Arg2:T7	
+R11	Bacterial_Disease Arg1:T3 Arg2:T8	
+R12	Bacterial_Disease Arg1:T3 Arg2:T9	
+R13	Drug_Disease Arg1:T1 Arg2:T13	
+R14	Bacterial_Disease Arg1:T10 Arg2:T13	
+R15	Bacterial_Disease Arg1:T11 Arg2:T13	
+R16	Bacterial_Disease Arg1:T12 Arg2:T13	
+R17	Drug_Disease Arg1:T1 Arg2:T16	
+R18	Drug_Disease Arg1:T1 Arg2:T17	
+R19	Bacterial_Disease Arg1:T14 Arg2:T16	
+R20	Bacterial_Disease Arg1:T15 Arg2:T16	
+R21	Bacterial_Disease Arg1:T14 Arg2:T17	
+R22	Bacterial_Disease Arg1:T15 Arg2:T17	
+R23	Drug_Disease Arg1:T1 Arg2:T19	
+R24	Bacterial_Disease Arg1:T18 Arg2:T19	

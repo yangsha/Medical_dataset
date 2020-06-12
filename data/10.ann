@@ -1,0 +1,17 @@
+T1	Drug 0 5	卤米松乳膏
+T2	Disease 8 29	对皮质类固醇治疗有效的非感染性炎症性皮肤病
+T3	Disease 31 33	皮炎
+T4	Disease 34 39	脂溢性皮炎
+T5	Disease 40 45	接触性皮炎
+T6	Disease 46 51	异位性皮炎
+T7	Disease 52 60	局限性神经性皮炎
+T8	Disease 61 66	钱币状皮炎
+T9	Disease 67 73	寻常型银屑病
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Disease_Disease Arg1:T2 Arg2:T3	
+R3	Disease_Disease Arg1:T2 Arg2:T4	
+R4	Disease_Disease Arg1:T2 Arg2:T5	
+R5	Disease_Disease Arg1:T2 Arg2:T6	
+R6	Disease_Disease Arg1:T2 Arg2:T7	
+R7	Disease_Disease Arg1:T2 Arg2:T8	
+R8	Disease_Disease Arg1:T2 Arg2:T9	

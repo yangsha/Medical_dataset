@@ -1,0 +1,65 @@
+T1	Drug 0 12	阿莫西林克拉维酸钾分散片
+T2	Bacterial 15 18	敏感菌
+T3	Disease 33 39	上呼吸道感染
+T4	Disease 40 43	鼻窦炎
+T5	Disease 44 48	扁桃体炎
+T6	Disease 49 51	咽炎
+T7	Disease 21 25	各种感染
+T8	Disease 58 64	下呼吸道感染
+T9	Disease 65 71	急性支气管炎
+T10	Disease 72 82	慢性支气管炎急性发作
+T11	Disease 83 85	肺炎
+T12	Disease 86 89	肺脓肿
+T13	Disease 90 97	支气管合并感染
+T14	Disease 104 110	泌尿系统感染
+T15	Disease 111 114	膀胱炎
+T16	Disease 115 118	尿道炎
+T17	Disease 119 123	肾盂肾炎
+T18	Disease 124 128	前列腺炎
+T19	Disease 129 132	盆腔炎
+T20	Disease 133 142	淋病奈瑟菌尿路感染
+T21	Disease 143 147	软性下疳
+T22	Disease 154 162	皮肤和软组织感染
+T23	Disease 163 164	疖
+T24	Disease 165 167	脓肿
+T25	Disease 168 173	蜂窝组织炎
+T26	Disease 174 178	伤口感染
+T27	Disease 179 184	腹内脓毒症
+T28	Disease 191 195	其他感染
+T29	Disease 196 199	中耳炎
+T30	Disease 200 203	骨髓炎
+T31	Disease 204 207	败血症
+T32	Disease 208 211	腹膜炎
+T33	Disease 212 217	手术后感染
+R1	Drug_Disease Arg1:T1 Arg2:T7	
+R2	Bacterial_Disease Arg1:T2 Arg2:T7	
+R3	Disease_Disease Arg1:T7 Arg2:T3	
+R4	Disease_Disease Arg1:T7 Arg2:T8	
+R5	Disease_Disease Arg1:T7 Arg2:T14	
+R6	Disease_Disease Arg1:T7 Arg2:T22	
+R7	Disease_Disease Arg1:T7 Arg2:T28	
+R8	Disease_Disease Arg1:T3 Arg2:T4	
+R9	Disease_Disease Arg1:T3 Arg2:T5	
+R10	Disease_Disease Arg1:T3 Arg2:T6	
+R11	Disease_Disease Arg1:T8 Arg2:T9	
+R12	Disease_Disease Arg1:T8 Arg2:T10	
+R13	Disease_Disease Arg1:T8 Arg2:T11	
+R14	Disease_Disease Arg1:T8 Arg2:T12	
+R15	Disease_Disease Arg1:T8 Arg2:T13	
+R16	Disease_Disease Arg1:T14 Arg2:T15	
+R17	Disease_Disease Arg1:T14 Arg2:T16	
+R18	Disease_Disease Arg1:T14 Arg2:T17	
+R19	Disease_Disease Arg1:T14 Arg2:T18	
+R20	Disease_Disease Arg1:T14 Arg2:T19	
+R21	Disease_Disease Arg1:T14 Arg2:T20	
+R22	Disease_Disease Arg1:T14 Arg2:T21	
+R23	Disease_Disease Arg1:T22 Arg2:T23	
+R24	Disease_Disease Arg1:T22 Arg2:T24	
+R25	Disease_Disease Arg1:T22 Arg2:T25	
+R26	Disease_Disease Arg1:T22 Arg2:T26	
+R27	Disease_Disease Arg1:T22 Arg2:T27	
+R28	Disease_Disease Arg1:T28 Arg2:T29	
+R29	Disease_Disease Arg1:T28 Arg2:T30	
+R30	Disease_Disease Arg1:T28 Arg2:T31	
+R31	Disease_Disease Arg1:T28 Arg2:T32	
+R32	Disease_Disease Arg1:T28 Arg2:T33	

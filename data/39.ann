@@ -1,0 +1,21 @@
+T1	Drug 0 6	氯碘羟喹乳膏
+T2	Disease 9 15	化脓性皮肤病
+T3	Disease 16 19	脓胞疮
+T4	Disease 20 23	毛囊炎
+T5	Disease 24 32	传染性湿疹样皮炎
+T6	Disease 33 35	手癣
+T7	Disease 36 38	足癣
+T8	Disease 39 41	体癣
+T9	Disease 42 44	股癣
+T10	Disease 45 52	急性湿疹样皮炎
+T11	Disease 53 66	真菌、细菌混合感染的皮肤病
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Drug_Disease Arg1:T1 Arg2:T3	
+R3	Drug_Disease Arg1:T1 Arg2:T4	
+R4	Drug_Disease Arg1:T1 Arg2:T5	
+R5	Drug_Disease Arg1:T1 Arg2:T6	
+R6	Drug_Disease Arg1:T1 Arg2:T7	
+R7	Drug_Disease Arg1:T1 Arg2:T8	
+R8	Drug_Disease Arg1:T1 Arg2:T9	
+R9	Drug_Disease Arg1:T1 Arg2:T10	
+R10	Drug_Disease Arg1:T1 Arg2:T11	

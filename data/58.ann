@@ -1,0 +1,13 @@
+T1	Drug 0 10	复方醋酸地塞米松乳膏
+T2	Disease 14 28	过敏性和自身免疫性炎症性疾病
+T3	Disease 30 36	局限性瘙痒症
+T4	Disease 37 42	神经性皮炎
+T5	Disease 43 48	接触性皮炎
+T6	Disease 49 54	脂溢性皮炎
+T7	Disease 55 59	慢性湿疹
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Disease_Disease Arg1:T2 Arg2:T3	
+R3	Disease_Disease Arg1:T2 Arg2:T4	
+R4	Disease_Disease Arg1:T2 Arg2:T5	
+R5	Disease_Disease Arg1:T2 Arg2:T6	
+R6	Disease_Disease Arg1:T2 Arg2:T7	

@@ -1,0 +1,15 @@
+T1	Drug 0 8	复方聚维酮碘搽剂
+T2	Disease 11 13	足癣
+T3	Disease 14 16	体癣
+T4	Disease 17 19	头癣
+T5	Disease 20 23	花斑癣
+T6	Disease 24 26	手癣
+T7	Disease 27 29	甲癣
+T8	Disease 39 45	并发细菌感染
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Drug_Disease Arg1:T1 Arg2:T3	
+R3	Drug_Disease Arg1:T1 Arg2:T4	
+R4	Drug_Disease Arg1:T1 Arg2:T5	
+R5	Drug_Disease Arg1:T1 Arg2:T6	
+R6	Drug_Disease Arg1:T1 Arg2:T7	
+R7	Drug_Disease Arg1:T1 Arg2:T8	

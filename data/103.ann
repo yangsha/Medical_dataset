@@ -1,0 +1,17 @@
+T1	Drug 0 7	四季抗病毒合剂
+T2	Disease 9 15	上呼吸道感染
+T3	Disease 16 21	病毒性感冒
+T4	Disease 22 24	流感
+T5	Disease 25 32	病毒性感染疾患
+T6	Symptom 35 37	头痛
+T7	Symptom 38 40	发热
+T8	Symptom 41 43	流涕
+T9	Symptom 44 46	咳嗽
+R1	Drug_Disease Arg1:T1 Arg2:T5	
+R2	Disease_Disease Arg1:T5 Arg2:T4	
+R3	Disease_Disease Arg1:T5 Arg2:T3	
+R4	Disease_Disease Arg1:T5 Arg2:T2	
+R5	Disease_Symptom Arg1:T5 Arg2:T6	
+R6	Disease_Symptom Arg1:T5 Arg2:T7	
+R7	Disease_Symptom Arg1:T5 Arg2:T8	
+R8	Disease_Symptom Arg1:T5 Arg2:T9	

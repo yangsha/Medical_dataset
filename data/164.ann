@@ -1,0 +1,7 @@
+T1	Drug 0 4	氢醌乳膏
+T2	Disease 7 10	黄褐斑
+T3	Disease 11 13	雀斑
+T4	Disease 14 22	炎症后色素沉着斑
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Drug_Disease Arg1:T1 Arg2:T3	
+R3	Drug_Disease Arg1:T1 Arg2:T4	

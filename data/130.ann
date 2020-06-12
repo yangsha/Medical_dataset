@@ -1,0 +1,21 @@
+T1	Drug 0 6	头孢呋辛酯片
+T2	Bacterial 9 19	对头孢呋辛敏感的细菌
+T3	Disease 24 26	感染
+T4	Disease 32 38	上呼吸道感染
+T5	Disease 44 50	下呼吸道感染
+T6	Disease 56 61	泌尿道感染
+T7	Disease 67 75	皮肤和软组织感染
+T8	Disease 81 87	耳、鼻部感染
+T9	Disease 93 102	急性无并发症的淋病
+T10	Disease 103 106	尿道炎
+T11	Disease 107 111	子宫颈炎
+R1	Drug_Disease Arg1:T1 Arg2:T3	
+R2	Bacterial_Disease Arg1:T2 Arg2:T3	
+R3	Disease_Disease Arg1:T3 Arg2:T4	
+R4	Disease_Disease Arg1:T3 Arg2:T5	
+R5	Disease_Disease Arg1:T3 Arg2:T6	
+R6	Disease_Disease Arg1:T3 Arg2:T7	
+R7	Disease_Disease Arg1:T3 Arg2:T8	
+R8	Disease_Disease Arg1:T3 Arg2:T9	
+R9	Disease_Disease Arg1:T9 Arg2:T10	
+R10	Disease_Disease Arg1:T9 Arg2:T11	

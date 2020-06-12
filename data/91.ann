@@ -1,0 +1,9 @@
+T1	Drug 0 7	乙酰半胱氨酸片
+T2	Disease 18 25	慢性阻塞性肺病
+T3	Disease 32 38	慢性支气管炎
+T4	Disease 43 46	肺气肿
+T5	Disease 51 59	慢性呼吸系统感染
+R1	Drug_Disease Arg1:T1 Arg2:T5	
+R2	Disease_Disease Arg1:T5 Arg2:T4	
+R3	Disease_Disease Arg1:T5 Arg2:T3	
+R4	Disease_Disease Arg1:T5 Arg2:T2	

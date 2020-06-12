@@ -1,0 +1,9 @@
+T1	Drug 0 7	吡硫翁锌气雾剂
+T2	Disease 10 13	银屑病
+T3	Disease 14 19	脂溢性皮炎
+T4	Disease 20 24	皮脂溢出
+T5	Disease 25 33	其它鳞屑性皮肤病
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Drug_Disease Arg1:T1 Arg2:T3	
+R3	Drug_Disease Arg1:T1 Arg2:T4	
+R4	Drug_Disease Arg1:T1 Arg2:T5	

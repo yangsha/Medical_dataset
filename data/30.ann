@@ -1,0 +1,9 @@
+T1	Drug 0 6	聚维酮碘溶液
+T2	Disease 8 13	化脓性皮炎
+T3	Disease 14 20	皮肤真菌感染
+T4	Disease 21 29	小面积轻度烧烫伤
+T5	Disease 33 43	小面积皮肤、黏膜创口
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Drug_Disease Arg1:T1 Arg2:T3	
+R3	Drug_Disease Arg1:T1 Arg2:T4	
+R4	Drug_Disease Arg1:T1 Arg2:T5	

@@ -1,0 +1,7 @@
+T1	Drug 0 5	银黄含化片
+T2	Disease 7 14	急慢性扁桃体炎
+T3	Disease 15 17	咽炎
+T4	Disease 18 24	上呼吸道感染
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Drug_Disease Arg1:T1 Arg2:T3	
+R3	Drug_Disease Arg1:T1 Arg2:T4	

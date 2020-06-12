@@ -1,0 +1,11 @@
+T1	Drug 0 8	柳烯酸溶液喷雾剂
+T2	Disease 14 17	手足癣
+T3	Disease 18 21	体股癣
+T4	Disease 22 25	花斑癣
+T5	Disease 34 37	皮肤病
+T6	Bacterial 27 29	真菌
+R4	Drug_Disease Arg1:T1 Arg2:T5	
+R5	Bacterial_Disease Arg1:T6 Arg2:T5	
+R1	Disease_Disease Arg1:T5 Arg2:T4	
+R2	Disease_Disease Arg1:T5 Arg2:T3	
+R3	Disease_Disease Arg1:T5 Arg2:T2	

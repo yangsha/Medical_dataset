@@ -1,0 +1,43 @@
+T1	Drug 0 7	硝酸咪康唑乳膏
+T2	Bacterial 13 16	皮真菌
+T3	Bacterial 17 20	酵母菌
+T4	Bacterial 21 25	其他真菌
+T5	Disease 28 38	皮肤、指（趾）甲感染
+T6	Disease 41 44	体股癣
+T7	Disease 45 48	手足癣
+T8	Disease 49 52	花斑癣
+T9	Disease 53 55	头癣
+T10	Disease 56 58	须癣
+T11	Disease 59 61	甲癣
+T12	Disease 63 75	皮肤、指（趾）甲念珠菌病
+T13	Disease 77 80	口角炎
+T14	Disease 81 84	外耳炎
+T15	Disease 111 116	继发性感染
+T16	Bacterial 90 95	革兰阳性菌
+T17	Bacterial 121 124	酵母菌
+T18	Bacterial 132 138	革兰阳性细菌
+T19	Bacterial 126 129	念珠菌
+T20	Disease 141 145	阴道感染
+T21	Disease 146 150	继发感染
+R1	Drug_Disease Arg1:T1 Arg2:T5	
+R2	Disease_Disease Arg1:T5 Arg2:T6	
+R3	Disease_Disease Arg1:T5 Arg2:T7	
+R4	Disease_Disease Arg1:T5 Arg2:T8	
+R5	Disease_Disease Arg1:T5 Arg2:T9	
+R6	Disease_Disease Arg1:T5 Arg2:T10	
+R7	Disease_Disease Arg1:T5 Arg2:T11	
+R8	Bacterial_Disease Arg1:T2 Arg2:T5	
+R9	Bacterial_Disease Arg1:T3 Arg2:T5	
+R10	Bacterial_Disease Arg1:T4 Arg2:T5	
+R11	Drug_Disease Arg1:T1 Arg2:T12	
+R12	Drug_Disease Arg1:T1 Arg2:T13	
+R13	Drug_Disease Arg1:T1 Arg2:T14	
+R14	Drug_Disease Arg1:T1 Arg2:T15	
+R15	Bacterial_Disease Arg1:T16 Arg2:T15	
+R16	Bacterial_Disease Arg1:T17 Arg2:T20	
+R17	Drug_Disease Arg1:T1 Arg2:T20	
+R18	Drug_Disease Arg1:T1 Arg2:T21	
+R20	Bacterial_Disease Arg1:T18 Arg2:T20	
+R21	Bacterial_Disease Arg1:T17 Arg2:T21	
+R23	Bacterial_Disease Arg1:T18 Arg2:T21	
+R24	Disease_Disease Arg1:T17 Arg2:T19	

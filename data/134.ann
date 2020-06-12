@@ -1,0 +1,33 @@
+T1	Drug 0 5	交沙霉素片
+T2	Bacterial 8 14	化脓性链球菌
+T3	Disease 17 19	咽炎
+T4	Disease 20 24	扁桃体炎
+T5	Bacterial 25 28	敏感菌
+T6	Disease 31 34	鼻窦炎
+T7	Disease 35 38	中耳炎
+T8	Disease 39 45	急性支气管炎
+T9	Disease 46 50	口腔脓肿
+T10	Bacterial 53 58	肺炎支原体
+T11	Disease 61 63	肺炎
+T12	Bacterial 64 68	敏感细菌
+T13	Disease 71 78	皮肤软组织感染
+T14	Bacterial 84 98	青霉素、红霉素耐药的葡萄球菌
+T15	Disease 99 101	感染
+R1	Drug_Disease Arg1:T1 Arg2:T3	
+R2	Drug_Disease Arg1:T1 Arg2:T4	
+R3	Bacterial_Disease Arg1:T2 Arg2:T3	
+R4	Bacterial_Disease Arg1:T2 Arg2:T4	
+R5	Drug_Disease Arg1:T1 Arg2:T6	
+R6	Drug_Disease Arg1:T1 Arg2:T7	
+R7	Drug_Disease Arg1:T1 Arg2:T8	
+R8	Drug_Disease Arg1:T1 Arg2:T9	
+R9	Bacterial_Disease Arg1:T5 Arg2:T6	
+R10	Bacterial_Disease Arg1:T5 Arg2:T7	
+R11	Bacterial_Disease Arg1:T5 Arg2:T8	
+R12	Bacterial_Disease Arg1:T5 Arg2:T9	
+R13	Drug_Disease Arg1:T1 Arg2:T11	
+R14	Bacterial_Disease Arg1:T10 Arg2:T11	
+R15	Drug_Disease Arg1:T1 Arg2:T13	
+R16	Bacterial_Disease Arg1:T12 Arg2:T13	
+R17	Drug_Disease Arg1:T1 Arg2:T15	
+R18	Bacterial_Disease Arg1:T14 Arg2:T15	

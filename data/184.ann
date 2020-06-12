@@ -1,0 +1,7 @@
+T1	Drug 0 5	水杨酸软膏
+T2	Disease 7 9	头癣
+T3	Disease 10 12	足癣
+T4	Disease 13 19	局部角质增生
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Drug_Disease Arg1:T1 Arg2:T3	
+R3	Drug_Disease Arg1:T1 Arg2:T4	

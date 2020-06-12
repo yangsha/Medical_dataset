@@ -1,0 +1,9 @@
+T1	Drug 0 5	聚维酮碘栓
+T2	Disease 7 16	念珠菌性外阴阴道病
+T3	Disease 17 23	细菌性阴道病
+T4	Disease 24 32	混合感染性阴道炎
+T5	Disease 37 39	痔疮
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Drug_Disease Arg1:T1 Arg2:T3	
+R3	Drug_Disease Arg1:T1 Arg2:T4	
+R4	Drug_Disease Arg1:T1 Arg2:T5	

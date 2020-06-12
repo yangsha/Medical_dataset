@@ -1,0 +1,7 @@
+T1	Drug 0 5	炉甘石洗剂
+T2	Disease 7 15	急性瘙痒性皮肤病
+T3	Disease 17 20	荨麻疹
+T4	Disease 21 23	痱子
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Disease_Disease Arg1:T2 Arg2:T3	
+R3	Disease_Disease Arg1:T2 Arg2:T4	

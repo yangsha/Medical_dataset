@@ -1,0 +1,7 @@
+T1	Drug 0 10	林可霉素利多卡因凝胶
+T2	Disease 12 16	轻度烧伤
+T3	Disease 17 19	创伤
+T4	Disease 20 33	蚊虫叮咬引起的各种皮肤感染
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Drug_Disease Arg1:T1 Arg2:T3	
+R3	Drug_Disease Arg1:T1 Arg2:T4	

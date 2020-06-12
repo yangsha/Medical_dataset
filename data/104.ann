@@ -1,0 +1,11 @@
+T1	Drug 0 5	复方岩莲片
+T2	Disease 7 13	上呼吸道感染
+T3	Disease 16 20	感冒咳嗽
+T4	Disease 21 28	急慢性支气管炎
+T5	Disease 29 32	咽喉炎
+T6	Disease 33 37	扁桃体炎
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Disease_Disease Arg1:T2 Arg2:T3	
+R3	Disease_Disease Arg1:T2 Arg2:T4	
+R4	Disease_Disease Arg1:T2 Arg2:T5	
+R5	Disease_Disease Arg1:T2 Arg2:T6	

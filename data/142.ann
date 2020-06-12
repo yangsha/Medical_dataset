@@ -1,0 +1,61 @@
+T1	Drug 0 7	头孢泊肟酯胶囊
+T2	Bacterial 13 16	敏感菌
+T3	Disease 21 23	感染
+T4	Disease 29 35	上呼吸道感染
+T5	Disease 75 81	下呼吸道感染
+T6	Disease 109 117	单纯性泌尿道感染
+T7	Disease 39 47	耳、鼻和喉部感染
+T8	Disease 50 55	急性中耳炎
+T9	Disease 56 59	鼻窦炎
+T10	Disease 60 64	扁桃体炎
+T11	Disease 65 68	咽喉炎
+T12	Disease 85 92	社区获得性肺炎
+T13	Disease 93 103	慢性支气管炎急性发作
+T14	Disease 121 124	膀胱炎
+T15	Disease 130 143	单纯性皮肤和皮肤软组织感染
+T16	Disease 144 147	毛囊炎
+T17	Disease 150 155	脓疱性痤疮
+T18	Disease 157 158	疖
+T19	Disease 159 160	痈
+T20	Disease 161 163	丹毒
+T21	Disease 164 168	蜂窝织炎
+T22	Disease 169 176	淋巴管（结）炎
+T23	Disease 177 183	化脓性甲沟炎
+T24	Disease 184 188	皮下脓肿
+T25	Disease 189 192	汗腺炎
+T26	Disease 193 197	簇状痤疮
+T27	Disease 198 207	皮脂腺囊肿合并感染
+T28	Disease 213 225	急性单纯性淋球菌性尿道炎
+T29	Disease 226 230	子宫颈炎
+T30	Bacterial 232 238	奈瑟氏淋球菌
+T31	Disease 241 244	肛周炎
+R1	Drug_Disease Arg1:T1 Arg2:T3	
+R2	Bacterial_Disease Arg1:T2 Arg2:T3	
+R3	Disease_Disease Arg1:T3 Arg2:T4	
+R4	Disease_Disease Arg1:T4 Arg2:T7	
+R5	Disease_Disease Arg1:T4 Arg2:T8	
+R6	Disease_Disease Arg1:T4 Arg2:T9	
+R7	Disease_Disease Arg1:T4 Arg2:T10	
+R8	Disease_Disease Arg1:T4 Arg2:T11	
+R9	Disease_Disease Arg1:T3 Arg2:T5	
+R10	Disease_Disease Arg1:T5 Arg2:T12	
+R11	Disease_Disease Arg1:T5 Arg2:T13	
+R12	Disease_Disease Arg1:T3 Arg2:T6	
+R13	Disease_Disease Arg1:T6 Arg2:T14	
+R14	Disease_Disease Arg1:T3 Arg2:T15	
+R15	Disease_Disease Arg1:T15 Arg2:T16	
+R16	Disease_Disease Arg1:T15 Arg2:T17	
+R17	Disease_Disease Arg1:T15 Arg2:T18	
+R18	Disease_Disease Arg1:T15 Arg2:T19	
+R19	Disease_Disease Arg1:T15 Arg2:T20	
+R20	Disease_Disease Arg1:T15 Arg2:T21	
+R21	Disease_Disease Arg1:T15 Arg2:T22	
+R22	Disease_Disease Arg1:T15 Arg2:T23	
+R23	Disease_Disease Arg1:T15 Arg2:T24	
+R24	Disease_Disease Arg1:T15 Arg2:T25	
+R25	Disease_Disease Arg1:T15 Arg2:T26	
+R26	Disease_Disease Arg1:T15 Arg2:T27	
+R27	Disease_Disease Arg1:T3 Arg2:T28	
+R28	Disease_Disease Arg1:T3 Arg2:T29	
+R29	Bacterial_Disease Arg1:T30 Arg2:T31	
+R30	Disease_Disease Arg1:T3 Arg2:T31	

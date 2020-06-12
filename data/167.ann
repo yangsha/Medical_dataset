@@ -1,0 +1,9 @@
+T1	Drug 0 5	阿维A胶囊
+T2	Disease 23 29	严重的银屑病
+T3	Disease 34 41	红皮病型银屑病
+T4	Disease 42 48	脓疱型银屑病
+T5	Disease 52 60	其它角化性皮肤病
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Drug_Disease Arg1:T1 Arg2:T5	
+R3	Disease_Disease Arg1:T2 Arg2:T3	
+R4	Disease_Disease Arg1:T2 Arg2:T4	

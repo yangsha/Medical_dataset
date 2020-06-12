@@ -1,0 +1,7 @@
+T1	Drug 0 6	穿黄清热胶囊
+T2	Disease 8 16	急性上呼吸道感染
+T3	Disease 17 23	急性扁桃腺炎
+T4	Disease 24 27	咽喉炎
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Drug_Disease Arg1:T1 Arg2:T3	
+R3	Drug_Disease Arg1:T1 Arg2:T4	

@@ -1,0 +1,9 @@
+T1	Drug 0 7	维胺酯维E乳膏
+T2	Disease 9 11	痤疮
+T3	Disease 12 17	毛发红糠疹
+T4	Disease 18 23	毛囊角化症
+T5	Disease 24 33	颜面播散性粟粒狼疮
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Drug_Disease Arg1:T1 Arg2:T3	
+R3	Drug_Disease Arg1:T1 Arg2:T4	
+R4	Drug_Disease Arg1:T1 Arg2:T5	

@@ -1,0 +1,9 @@
+T1	Drug 0 5	除脂生发片
+T2	Disease 7 12	脂溢性脱发
+T3	Disease 13 17	头皮瘙痒
+T4	Disease 18 20	落屑
+T5	Disease 21 27	油脂分泌过多
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Drug_Disease Arg1:T1 Arg2:T3	
+R3	Drug_Disease Arg1:T1 Arg2:T4	
+R4	Drug_Disease Arg1:T1 Arg2:T5	

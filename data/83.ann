@@ -1,0 +1,9 @@
+T1	Drug 0 4	胆舒胶囊
+T2	Disease 8 16	慢性结石性胆囊炎
+T3	Disease 17 22	慢性胆囊炎
+T4	Disease 23 30	胆结石肝胆郁结
+T5	Disease 31 36	湿热胃滞证
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Drug_Disease Arg1:T1 Arg2:T3	
+R3	Drug_Disease Arg1:T1 Arg2:T4	
+R4	Drug_Disease Arg1:T1 Arg2:T5	

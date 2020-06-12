@@ -1,0 +1,15 @@
+T1	Drug 0 8	转移因子口服溶液
+T2	Disease 20 32	病毒性或霉菌性细胞内感染
+T3	Disease 44 48	恶性肿瘤
+T4	Disease 60 62	湿疹
+T5	Disease 63 68	血小板减少
+T6	Disease 69 76	多次感染综合征
+T7	Disease 77 86	慢性皮肤黏膜真菌病
+T8	Disease 87 93	免疫缺陷疾病
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Drug_Disease Arg1:T1 Arg2:T3	
+R3	Drug_Disease Arg1:T1 Arg2:T8	
+R4	Disease_Disease Arg1:T8 Arg2:T7	
+R5	Disease_Disease Arg1:T8 Arg2:T6	
+R6	Disease_Disease Arg1:T8 Arg2:T5	
+R7	Disease_Disease Arg1:T8 Arg2:T4	

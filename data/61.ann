@@ -1,0 +1,13 @@
+T1	Drug 0 8	盐酸洛美沙星乳膏
+T2	Disease 12 20	细菌感染性皮肤病
+T3	Disease 22 25	脓疱疮
+T4	Disease 26 29	毛囊炎
+T5	Disease 30 38	足癣继发化脓感染
+T6	Disease 39 45	湿疹继发感染
+T7	Disease 47 56	其他表浅局限性感染
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Disease_Disease Arg1:T2 Arg2:T3	
+R3	Disease_Disease Arg1:T2 Arg2:T4	
+R4	Disease_Disease Arg1:T2 Arg2:T5	
+R5	Disease_Disease Arg1:T2 Arg2:T6	
+R6	Disease_Disease Arg1:T2 Arg2:T7	

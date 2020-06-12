@@ -1,0 +1,11 @@
+T1	Drug 0 7	头孢丙烯分散片
+T2	Bacterial 10 13	敏感菌
+T3	Disease 18 24	轻、中度感染
+T4	Disease 30 36	上呼吸道感染
+T5	Disease 42 48	下呼吸道感染
+T6	Disease 54 62	皮肤和皮肤软组织
+R1	Drug_Disease Arg1:T1 Arg2:T3	
+R2	Bacterial_Disease Arg1:T2 Arg2:T3	
+R3	Disease_Disease Arg1:T3 Arg2:T4	
+R4	Disease_Disease Arg1:T3 Arg2:T5	
+R5	Disease_Disease Arg1:T3 Arg2:T6	

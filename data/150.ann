@@ -1,0 +1,17 @@
+T1	Drug 0 8	复方头孢克洛胶囊
+T2	Bacterial 14 17	敏感菌
+T3	Disease 20 25	呼吸道感染
+T4	Disease 31 34	鼻窦炎
+T5	Disease 35 37	咽炎
+T6	Disease 38 42	扁桃体炎
+T7	Disease 43 49	急性支气管炎
+T8	Disease 50 63	慢性喘息性支气管炎急性发作
+T9	Disease 64 66	肺炎
+R1	Drug_Disease Arg1:T1 Arg2:T3	
+R2	Bacterial_Disease Arg1:T2 Arg2:T3	
+R3	Drug_Disease Arg1:T1 Arg2:T4	
+R4	Drug_Disease Arg1:T1 Arg2:T5	
+R5	Drug_Disease Arg1:T1 Arg2:T6	
+R6	Drug_Disease Arg1:T1 Arg2:T7	
+R7	Drug_Disease Arg1:T1 Arg2:T8	
+R8	Drug_Disease Arg1:T1 Arg2:T9	

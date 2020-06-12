@@ -1,0 +1,13 @@
+T1	Drug 0 8	愈酚溴新口服溶液
+T2	Disease 10 19	急慢性上呼吸道感染
+T3	Disease 21 25	普通感冒
+T4	Disease 28 35	急慢性支气管炎
+T5	Disease 36 41	支气管扩张
+T6	Symptom 44 48	痰液粘稠
+T7	Patient 49 58	痰多不易咳出的患者
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Disease_Disease Arg1:T2 Arg2:T3	
+R3	Drug_Disease Arg1:T1 Arg2:T4	
+R4	Drug_Disease Arg1:T1 Arg2:T5	
+R5	Disease_Symptom Arg1:T5 Arg2:T6	
+R6	Valid Arg1:T1 Arg2:T7	

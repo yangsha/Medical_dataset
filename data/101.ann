@@ -1,0 +1,7 @@
+T1	Drug 0 6	聚维酮碘凝胶
+T2	Disease 8 17	念珠菌性外阴阴道病
+T3	Disease 18 24	细菌性阴道病
+T4	Disease 25 33	混合感染性阴道炎
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Drug_Disease Arg1:T1 Arg2:T3	
+R3	Drug_Disease Arg1:T1 Arg2:T4	

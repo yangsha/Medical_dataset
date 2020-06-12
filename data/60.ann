@@ -1,0 +1,13 @@
+T1	Drug 0 6	环吡酮胺乳膏
+T2	Disease 8 16	浅部皮肤真菌感染
+T3	Disease 18 22	体、股癣
+T4	Disease 23 27	手、足癣
+T5	Disease 38 41	花斑癣
+T6	Disease 42 48	皮肤念珠菌病
+T7	Disease 53 55	甲癣
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Disease_Disease Arg1:T2 Arg2:T3	
+R3	Disease_Disease Arg1:T2 Arg2:T4	
+R4	Disease_Disease Arg1:T2 Arg2:T5	
+R5	Disease_Disease Arg1:T2 Arg2:T6	
+R6	Disease_Disease Arg1:T2 Arg2:T7	

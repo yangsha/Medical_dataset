@@ -1,0 +1,66 @@
+T1	Drug 0 6	琥乙红霉素片
+T2	Bacterial 32 38	溶血性链球菌
+T3	Bacterial 39 44	肺炎链球菌
+T4	Disease 48 54	急性扁桃体炎
+T5	Disease 55 59	急性咽炎
+T6	Disease 60 63	鼻窦炎
+T7	Bacterial 65 71	溶血性链球菌
+T8	Disease 73 76	猩红热
+T9	Disease 77 81	蜂窝织炎
+T10	Patient 83 91	白喉及白喉带菌者
+T11	Disease 92 96	气性坏疽
+T12	Disease 97 99	炭疽
+T13	Disease 100 103	破伤风
+T14	Disease 105 109	放线菌病
+T15	Disease 111 113	梅毒
+T16	Disease 114 119	李斯特菌病
+T17	Disease 127 131	军团菌病
+T18	Disease 138 145	肺炎支原体肺炎
+T19	Disease 152 159	肺炎衣原体肺炎
+T20	Bacterial 166 170	衣原体属
+T21	Bacterial 171 175	支原体属
+T22	Disease 177 184	泌尿生殖系感染
+T23	Disease 191 199	沙眼衣原体结膜炎
+T24	Bacterial 206 209	厌氧菌
+T25	Disease 211 215	口腔感染
+T26	Disease 222 229	空肠弯曲菌肠炎
+T27	Disease 236 239	百日咳
+T28	Disease 247 260	风湿热复发、感染性心内膜炎
+T29	Disease 261 267	风湿性心脏病
+T30	Disease 268 274	先天性心脏病
+T31	Disease 275 283	心脏瓣膜置换术后
+R1	Drug_Disease Arg1:T1 Arg2:T4	
+R2	Drug_Disease Arg1:T1 Arg2:T5	
+R3	Drug_Disease Arg1:T1 Arg2:T6	
+R4	Bacterial_Disease Arg1:T2 Arg2:T4	
+R5	Bacterial_Disease Arg1:T2 Arg2:T5	
+R6	Bacterial_Disease Arg1:T2 Arg2:T6	
+R7	Bacterial_Disease Arg1:T3 Arg2:T4	
+R8	Bacterial_Disease Arg1:T3 Arg2:T5	
+R9	Bacterial_Disease Arg1:T3 Arg2:T6	
+R10	Bacterial_Disease Arg1:T7 Arg2:T8	
+R11	Bacterial_Disease Arg1:T7 Arg2:T9	
+R12	Drug_Disease Arg1:T1 Arg2:T8	
+R13	Drug_Disease Arg1:T1 Arg2:T9	
+R14	Drug_Patient Arg1:T1 Arg2:T10	
+R15	Drug_Disease Arg1:T1 Arg2:T11	
+R16	Drug_Disease Arg1:T1 Arg2:T12	
+R17	Drug_Disease Arg1:T1 Arg2:T13	
+R18	Drug_Disease Arg1:T1 Arg2:T14	
+R19	Drug_Disease Arg1:T1 Arg2:T15	
+R20	Drug_Disease Arg1:T1 Arg2:T16	
+R21	Drug_Disease Arg1:T1 Arg2:T17	
+R22	Drug_Disease Arg1:T1 Arg2:T18	
+R23	Drug_Disease Arg1:T1 Arg2:T19	
+R24	Drug_Disease Arg1:T1 Arg2:T22	
+R25	Bacterial_Disease Arg1:T21 Arg2:T22	
+R26	Bacterial_Disease Arg1:T20 Arg2:T22	
+R27	Drug_Disease Arg1:T1 Arg2:T23	
+R28	Drug_Disease Arg1:T1 Arg2:T25	
+R29	Bacterial_Disease Arg1:T24 Arg2:T25	
+R30	Drug_Disease Arg1:T1 Arg2:T26	
+R31	Drug_Disease Arg1:T1 Arg2:T27	
+R32	Drug_Disease Arg1:T1 Arg2:T28	
+R33	Disease_Disease Arg1:T28 Arg2:T29	
+R34	Disease_Disease Arg1:T28 Arg2:T30	
+R35	Disease_Disease Arg1:T28 Arg2:T31	

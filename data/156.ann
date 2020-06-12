@@ -1,0 +1,7 @@
+T1	Drug 0 9	埃索美拉唑镁肠溶片
+T2	Bacterial 23 28	幽门螺杆菌
+T3	Bacterial 34 39	幽门螺杆菌
+T4	Disease 53 67	与幽门螺杆菌相关的消化性溃疡
+R1	Drug_Disease Arg1:T1 Arg2:T4	
+T5	Disease 44 50	十二指肠溃疡
+R2	Bacterial_Disease Arg1:T3 Arg2:T5	

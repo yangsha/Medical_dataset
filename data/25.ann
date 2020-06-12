@@ -1,0 +1,11 @@
+T1	Drug 0 6	酮康他索乳膏
+T2	Disease 11 19	皮肤浅表真菌感染
+T3	Disease 21 23	手癣
+T4	Disease 24 26	足癣
+T5	Disease 27 29	体癣
+T6	Disease 30 32	股癣
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Disease_Disease Arg1:T2 Arg2:T3	
+R3	Disease_Disease Arg1:T2 Arg2:T4	
+R4	Disease_Disease Arg1:T2 Arg2:T5	
+R5	Disease_Disease Arg1:T2 Arg2:T6	

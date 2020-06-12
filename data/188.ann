@@ -1,0 +1,17 @@
+T1	Drug 0 10	利多卡因氯己定气雾剂
+T2	Disease 12 16	轻度割伤
+T3	Disease 17 19	擦伤
+T4	Disease 20 25	软组织损伤
+T5	Disease 26 28	灼伤
+T6	Disease 29 31	晒伤
+T7	Disease 34 38	蚊虫叮咬
+T8	Disease 39 41	瘙痒
+T9	Disease 42 44	痱子
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Drug_Disease Arg1:T1 Arg2:T3	
+R3	Drug_Disease Arg1:T1 Arg2:T4	
+R4	Drug_Disease Arg1:T1 Arg2:T5	
+R5	Drug_Disease Arg1:T1 Arg2:T6	
+R6	Drug_Disease Arg1:T1 Arg2:T7	
+R7	Drug_Disease Arg1:T1 Arg2:T8	
+R8	Drug_Disease Arg1:T1 Arg2:T9	

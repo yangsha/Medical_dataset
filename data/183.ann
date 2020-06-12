@@ -1,0 +1,7 @@
+T1	Drug 0 5	皮敏消胶囊
+T2	Disease 7 13	急慢性荨麻疹
+T3	Disease 14 22	急性湿疹属风热证
+T4	Disease 23 28	风热挟湿证
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Drug_Disease Arg1:T1 Arg2:T3	
+R3	Drug_Disease Arg1:T1 Arg2:T4	

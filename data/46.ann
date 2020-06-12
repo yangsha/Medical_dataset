@@ -1,0 +1,17 @@
+T1	Drug 0 8	盐酸特比萘芬凝胶
+T2	Bacterial 13 17	敏感真菌
+T3	Disease 21 23	体癣
+T4	Disease 24 26	股癣
+T5	Disease 27 29	手癣
+T6	Disease 30 32	足癣
+T7	Disease 33 36	花斑癣
+R1	Drug_Disease Arg1:T1 Arg2:T3	
+R2	Drug_Disease Arg1:T1 Arg2:T4	
+R3	Drug_Disease Arg1:T1 Arg2:T5	
+R4	Drug_Disease Arg1:T1 Arg2:T6	
+R5	Drug_Disease Arg1:T1 Arg2:T7	
+R6	Bacterial_Disease Arg1:T2 Arg2:T3	
+R7	Bacterial_Disease Arg1:T2 Arg2:T4	
+R8	Bacterial_Disease Arg1:T2 Arg2:T5	
+R9	Bacterial_Disease Arg1:T2 Arg2:T6	
+R10	Bacterial_Disease Arg1:T2 Arg2:T7	

@@ -1,0 +1,7 @@
+T1	Drug 0 7	异维A酸软胶囊
+T2	Disease 10 14	重度痤疮
+T3	Disease 20 27	结节囊肿型痤疮
+T4	Disease 32 37	毛发红糠疹
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Drug_Disease Arg1:T1 Arg2:T3	
+R3	Drug_Disease Arg1:T1 Arg2:T4	

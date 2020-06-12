@@ -1,0 +1,15 @@
+T1	Drug 0 2	川石
+T2	Disease 4 6	疥疮
+T3	Disease 7 9	头癣
+T4	Disease 10 12	痤疮
+T5	Disease 13 18	脂溢性皮炎
+T6	Disease 19 22	酒渣鼻
+T7	Disease 23 27	单纯糠疹
+T8	Disease 28 32	慢性湿疹
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Drug_Disease Arg1:T1 Arg2:T3	
+R3	Drug_Disease Arg1:T1 Arg2:T4	
+R4	Drug_Disease Arg1:T1 Arg2:T5	
+R5	Drug_Disease Arg1:T1 Arg2:T6	
+R6	Drug_Disease Arg1:T1 Arg2:T7	
+R7	Drug_Disease Arg1:T1 Arg2:T8	

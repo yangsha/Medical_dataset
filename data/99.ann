@@ -1,0 +1,9 @@
+T1	Drug 1 7	石黄抗菌胶囊
+T2	Disease 9 11	菌痢
+T3	Disease 12 18	上呼吸道感染
+T4	Disease 19 23	扁桃体炎
+T5	Disease 24 28	尿路感染
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Drug_Disease Arg1:T1 Arg2:T3	
+R3	Drug_Disease Arg1:T1 Arg2:T4	
+R4	Drug_Disease Arg1:T1 Arg2:T5	

@@ -1,0 +1,9 @@
+T1	Drug 0 5	红霉素软膏
+T2	Disease 7 10	脓疱疮
+T3	Disease 17 22	小面积烧伤
+T4	Disease 23 29	溃疡面的感染
+T5	Disease 30 34	寻常痤疮
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Drug_Disease Arg1:T1 Arg2:T3	
+R3	Drug_Disease Arg1:T1 Arg2:T4	
+R4	Drug_Disease Arg1:T1 Arg2:T5	

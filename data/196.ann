@@ -1,0 +1,11 @@
+T1	Drug 0 4	肤疾洗剂
+T2	Disease 6 8	疥疮
+T3	Disease 9 11	湿疹
+T4	Disease 12 17	脂溢性皮炎
+T5	Disease 18 24	瘙痒性皮肤病
+T6	Disease 25 28	花斑癣
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Drug_Disease Arg1:T1 Arg2:T3	
+R3	Drug_Disease Arg1:T1 Arg2:T4	
+R4	Drug_Disease Arg1:T1 Arg2:T5	
+R5	Drug_Disease Arg1:T1 Arg2:T6	

@@ -1,0 +1,7 @@
+T1	Drug 0 5	五妙水仙膏
+T2	Disease 7 10	毛囊炎
+T3	Disease 11 16	结节性痒疹
+T4	Disease 17 26	寻常疣、神经性皮炎
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Drug_Disease Arg1:T1 Arg2:T3	
+R3	Drug_Disease Arg1:T1 Arg2:T4	

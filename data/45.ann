@@ -1,0 +1,7 @@
+T1	Drug 0 5	甲硝唑凝胶
+T2	Disease 7 12	炎症性丘疹
+T3	Disease 13 16	脓疱疮
+T4	Disease 17 22	酒渣鼻红斑
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Drug_Disease Arg1:T1 Arg2:T3	
+R3	Drug_Disease Arg1:T1 Arg2:T4	

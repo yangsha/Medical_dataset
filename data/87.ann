@@ -1,0 +1,11 @@
+T1	Drug 0 9	复方一枝黄花喷雾剂
+T2	Disease 11 17	上呼吸道感染
+T3	Disease 18 24	急、慢性咽炎
+T4	Disease 25 29	口舌生疮
+T5	Disease 30 34	牙龈肿痛
+T6	Disease 35 37	口臭
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Drug_Disease Arg1:T1 Arg2:T3	
+R3	Drug_Disease Arg1:T1 Arg2:T4	
+R4	Drug_Disease Arg1:T1 Arg2:T5	
+R5	Drug_Disease Arg1:T1 Arg2:T6	

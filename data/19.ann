@@ -1,0 +1,7 @@
+T1	Drug 0 10	复方醋酸曲安奈德溶液
+T2	Disease 12 17	过敏性皮炎
+T3	Disease 18 23	神经性皮炎
+T4	Disease 24 28	慢性湿疹
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Drug_Disease Arg1:T1 Arg2:T3	
+R3	Drug_Disease Arg1:T1 Arg2:T4	

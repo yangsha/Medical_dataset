@@ -1,0 +1,57 @@
+T1	Drug 0 6	头孢丙烯胶囊
+T2	Bacterial 9 12	敏感菌
+T3	Disease 17 23	轻、中度感染
+T4	Disease 28 34	上呼吸道感染
+T5	Disease 117 123	下呼吸道感染
+T6	Disease 205 216	.皮肤和皮肤软组织感染
+T7	Disease 40 49	化脓性链球菌性咽炎
+T8	Disease 50 54	扁桃体炎
+T9	Bacterial 60 65	肺炎链球菌
+T10	Bacterial 66 72	流感嗜血杆菌
+T11	Bacterial 75 83	产β内酰胺酶菌株
+T12	Bacterial 85 90	卡他莫拉菌
+T13	Bacterial 93 101	产β内酰胺酶菌株
+T14	Disease 103 106	中耳炎
+T15	Disease 107 112	急性鼻窦炎
+T16	Bacterial 127 132	肺炎链球菌
+T17	Bacterial 133 139	流感嗜血杆菌
+T18	Bacterial 142 150	产β内酰胺酶菌株
+T19	Bacterial 152 157	卡他莫拉菌
+T20	Bacterial 160 168	产β内酰胺酶菌株
+T21	Disease 174 187	急性支气管炎继发细菌性感染
+T22	Disease 188 201	慢性支气管炎急性细菌性发作
+T23	Bacterial 217 224	金黄色葡萄球菌
+T24	Bacterial 227 235	产β青霉素酶菌株
+T25	Bacterial 239 245	化脓性链球菌
+T26	Disease 248 262	非复杂性皮肤和皮肤软组织感染
+R1	Drug_Disease Arg1:T1 Arg2:T3	
+R2	Bacterial_Disease Arg1:T2 Arg2:T3	
+R3	Disease_Disease Arg1:T3 Arg2:T4	
+R4	Disease_Disease Arg1:T3 Arg2:T5	
+R5	Disease_Disease Arg1:T3 Arg2:T6	
+R6	Disease_Disease Arg1:T4 Arg2:T7	
+R7	Disease_Disease Arg1:T4 Arg2:T8	
+R8	Disease_Disease Arg1:T4 Arg2:T14	
+R9	Disease_Disease Arg1:T4 Arg2:T15	
+R10	Bacterial_Disease Arg1:T9 Arg2:T14	
+R11	Bacterial_Disease Arg1:T9 Arg2:T15	
+R12	Bacterial_Disease Arg1:T10 Arg2:T14	
+R13	Bacterial_Disease Arg1:T10 Arg2:T15	
+R14	Disease_Disease Arg1:T10 Arg2:T11	
+R15	Bacterial_Disease Arg1:T12 Arg2:T14	
+R16	Bacterial_Disease Arg1:T12 Arg2:T15	
+R17	Disease_Disease Arg1:T12 Arg2:T13	
+R18	Disease_Disease Arg1:T5 Arg2:T21	
+R19	Disease_Disease Arg1:T5 Arg2:T22	
+R20	Bacterial_Disease Arg1:T16 Arg2:T21	
+R21	Bacterial_Disease Arg1:T16 Arg2:T22	
+R22	Bacterial_Disease Arg1:T17 Arg2:T21	
+R23	Bacterial_Disease Arg1:T17 Arg2:T22	
+R24	Disease_Disease Arg1:T17 Arg2:T18	
+R25	Bacterial_Disease Arg1:T19 Arg2:T21	
+R26	Bacterial_Disease Arg1:T19 Arg2:T22	
+R27	Disease_Disease Arg1:T19 Arg2:T20	
+R28	Disease_Disease Arg1:T6 Arg2:T26	
+R29	Bacterial_Disease Arg1:T23 Arg2:T26	
+R30	Disease_Disease Arg1:T23 Arg2:T24	
+R31	Bacterial_Disease Arg1:T25 Arg2:T26	

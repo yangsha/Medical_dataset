@@ -1,0 +1,13 @@
+T1	Drug 0 5	硝呋太尔片
+T2	Disease 12 18	细菌性阴道病
+T3	Disease 19 25	滴虫性阴道炎
+T4	Disease 26 32	念珠菌阴道炎
+T5	Disease 34 37	外阴炎
+T6	Disease 43 49	泌尿系统感染
+T7	Disease 55 67	消化道阿米巴虫及贾第虫病
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Drug_Disease Arg1:T1 Arg2:T3	
+R3	Drug_Disease Arg1:T1 Arg2:T4	
+R4	Drug_Disease Arg1:T1 Arg2:T5	
+R5	Drug_Disease Arg1:T1 Arg2:T6	
+R6	Drug_Disease Arg1:T1 Arg2:T7	

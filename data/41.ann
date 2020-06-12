@@ -1,0 +1,19 @@
+T1	Drug 0 7	盐酸苯替芬溶液
+T2	Bacterial 10 14	敏感真菌
+T3	Disease 18 23	皮肤真菌病
+T4	Disease 24 27	体股癣
+T5	Disease 28 31	手足癣
+T6	Disease 32 34	头癣
+T7	Disease 35 37	甲癣
+T8	Disease 38 41	花斑癣
+T9	Disease 42 48	浅表念珠菌病
+T10	Disease 50 62	皮肤皱褶部的擦烂性真菌病
+R1	Drug_Disease Arg1:T1 Arg2:T3	
+R2	Bacterial_Disease Arg1:T2 Arg2:T3	
+R3	Disease_Disease Arg1:T3 Arg2:T4	
+R4	Disease_Disease Arg1:T3 Arg2:T5	
+R5	Disease_Disease Arg1:T3 Arg2:T6	
+R6	Disease_Disease Arg1:T3 Arg2:T7	
+R7	Disease_Disease Arg1:T3 Arg2:T8	
+R8	Disease_Disease Arg1:T3 Arg2:T9	
+R9	Disease_Disease Arg1:T3 Arg2:T10	

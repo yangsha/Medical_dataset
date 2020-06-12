@@ -1,0 +1,19 @@
+T1	Drug 0 8	硝酸奥昔康唑乳膏
+T2	Bacterial 13 16	皮真菌
+T3	Bacterial 17 20	酵母菌
+T4	Bacterial 21 25	其它真菌
+T5	Disease 28 38	皮肤、指(趾)甲感染
+T6	Bacterial 40 43	酵母菌
+T7	Bacterial 45 48	念珠菌
+T8	Bacterial 51 58	革兰氏阳性细菌
+T9	Disease 61 65	阴道感染
+T10	Disease 66 71	继发性感染
+R1	Drug_Disease Arg1:T1 Arg2:T5	
+R2	Bacterial_Disease Arg1:T2 Arg2:T5	
+R3	Bacterial_Disease Arg1:T3 Arg2:T5	
+R4	Bacterial_Disease Arg1:T4 Arg2:T5	
+R5	Bacterial_Disease Arg1:T6 Arg2:T9	
+R6	Bacterial_Disease Arg1:T8 Arg2:T10	
+R7	Bacterial_Disease Arg1:T6 Arg2:T10	
+R8	Bacterial_Disease Arg1:T8 Arg2:T9	
+R9	Disease_Disease Arg1:T6 Arg2:T7	

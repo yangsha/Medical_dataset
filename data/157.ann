@@ -1,0 +1,13 @@
+T1	Drug 0 6	枸橼酸铋钾片
+T2	Disease 11 17	十二指肠溃疡
+T3	Disease 18 21	胃溃疡
+T4	Disease 39 48	复发性及难治性溃疡
+T5	Disease 49 53	慢性胃炎
+T6	Patient 22 34	伴有幽门螺旋菌Hp感染者
+T7	Patient 54 66	伴有幽门螺旋菌Hp感染者
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Drug_Disease Arg1:T1 Arg2:T3	
+R3	Drug_Disease Arg1:T1 Arg2:T4	
+R4	Drug_Disease Arg1:T1 Arg2:T5	
+R5	Valid Arg1:T1 Arg2:T6	
+R6	Valid Arg1:T1 Arg2:T7	

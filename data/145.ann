@@ -1,0 +1,33 @@
+T1	Drug 0 8	盐酸头孢他美酯片
+T2	Bacterial 11 14	敏感菌
+T3	Disease 19 21	感染
+T4	Disease 26 35	.耳、鼻、喉部感染
+T5	Disease 37 40	中耳炎
+T6	Disease 41 44	鼻窦炎
+T7	Disease 45 47	咽炎
+T8	Disease 48 52	扁桃体炎
+T9	Disease 59 65	下呼吸道感染
+T10	Disease 67 77	慢性支气管炎急性发作
+T11	Disease 78 83	急性气管炎
+T12	Disease 84 90	急性支气管炎
+T13	Disease 97 103	泌尿系统感染
+T14	Disease 105 113	非复杂性尿路感染
+T15	Disease 114 121	复杂性尿路感染
+T16	Disease 124 128	肾盂肾炎
+T17	Disease 130 141	男性急性淋球菌性尿道炎
+R1	Drug_Disease Arg1:T1 Arg2:T3	
+R2	Bacterial_Disease Arg1:T2 Arg2:T3	
+R3	Disease_Disease Arg1:T3 Arg2:T4	
+R4	Disease_Disease Arg1:T3 Arg2:T9	
+R5	Disease_Disease Arg1:T3 Arg2:T13	
+R6	Disease_Disease Arg1:T4 Arg2:T5	
+R7	Disease_Disease Arg1:T4 Arg2:T6	
+R8	Disease_Disease Arg1:T4 Arg2:T7	
+R9	Disease_Disease Arg1:T4 Arg2:T8	
+R10	Disease_Disease Arg1:T9 Arg2:T10	
+R11	Disease_Disease Arg1:T9 Arg2:T11	
+R12	Disease_Disease Arg1:T9 Arg2:T12	
+R13	Disease_Disease Arg1:T13 Arg2:T14	
+R14	Disease_Disease Arg1:T13 Arg2:T15	
+R15	Disease_Disease Arg1:T13 Arg2:T17	
+R16	Disease_Disease Arg1:T15 Arg2:T16	

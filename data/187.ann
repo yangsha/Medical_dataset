@@ -1,0 +1,7 @@
+T1	Drug 0 8	林可霉素维6乳膏
+T2	Disease 10 12	痤疮
+T3	Disease 13 15	粉刺
+T4	Disease 17 22	脂溢性皮炎
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Disease_Disease Arg1:T2 Arg2:T3	
+R3	Drug_Disease Arg1:T1 Arg2:T4	

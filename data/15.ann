@@ -1,0 +1,15 @@
+T1	Drug 0 8	硝酸舍他康唑乳膏
+T2	Bacterial 11 14	皮真菌
+T3	Bacterial 15 18	酵母菌
+T4	Bacterial 19 22	念珠菌
+T5	Bacterial 23 26	曲霉菌
+T6	Disease 29 33	皮肤感染
+T7	Disease 36 39	体股癣
+T8	Disease 40 42	足癣
+R1	Drug_Disease Arg1:T1 Arg2:T6	
+R2	Disease_Disease Arg1:T6 Arg2:T7	
+R3	Disease_Disease Arg1:T6 Arg2:T8	
+R4	Bacterial_Disease Arg1:T2 Arg2:T6	
+R5	Bacterial_Disease Arg1:T3 Arg2:T6	
+R6	Bacterial_Disease Arg1:T4 Arg2:T6	
+R7	Bacterial_Disease Arg1:T5 Arg2:T6	

@@ -1,0 +1,7 @@
+T1	Drug 0 5	金莲花胶囊
+T2	Disease 7 13	上呼吸道感染
+T3	Disease 14 16	咽炎
+T4	Disease 17 21	扁桃体炎
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Drug_Disease Arg1:T1 Arg2:T3	
+R3	Drug_Disease Arg1:T1 Arg2:T4	

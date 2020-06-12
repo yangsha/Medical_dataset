@@ -1,0 +1,3 @@
+T1	Drug 0 5	桃红清血片
+T3	Disease 19 22	白癜风
+R1	Drug_Disease Arg1:T1 Arg2:T3	

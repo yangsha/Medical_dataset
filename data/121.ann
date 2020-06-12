@@ -1,0 +1,45 @@
+T1	Drug 0 6	头孢克肟颗粒
+T2	Bacterial 9 21	对头孢克肟敏感的链球菌属
+T3	Bacterial 29 33	肺炎球菌
+T4	Bacterial 34 37	淋球菌
+T5	Bacterial 38 45	卡他布兰汉球菌
+T6	Bacterial 46 50	大肠杆菌
+T7	Bacterial 51 57	克雷伯杆菌属
+T8	Bacterial 58 62	沙雷菌属
+T9	Bacterial 63 68	变形杆菌属
+T10	Bacterial 69 73	流感杆菌
+T11	Disease 79 86	细菌感染性疾病
+T12	Disease 92 96	支气管炎
+T13	Disease 97 103	支气管扩张症
+T14	Disease 109 124	慢性呼吸系统感染疾病的继发感染
+T15	Disease 125 127	肺炎
+T16	Disease 133 137	肾盂肾炎
+T17	Disease 138 141	膀胱炎
+T18	Disease 142 149	淋球菌性尿道炎
+T19	Disease 155 158	胆囊炎
+T20	Disease 159 162	胆管炎
+T21	Disease 168 171	猩红热
+T22	Disease 177 180	中耳炎
+T23	Disease 181 185	副鼻窦炎
+R1	Drug_Disease Arg1:T1 Arg2:T11	
+R2	Bacterial_Disease Arg1:T2 Arg2:T11	
+R3	Bacterial_Disease Arg1:T3 Arg2:T11	
+R4	Bacterial_Disease Arg1:T4 Arg2:T11	
+R5	Bacterial_Disease Arg1:T5 Arg2:T11	
+R6	Bacterial_Disease Arg1:T6 Arg2:T11	
+R7	Bacterial_Disease Arg1:T7 Arg2:T11	
+R8	Bacterial_Disease Arg1:T8 Arg2:T11	
+R9	Bacterial_Disease Arg1:T9 Arg2:T11	
+R10	Bacterial_Disease Arg1:T10 Arg2:T11	
+R11	Disease_Disease Arg1:T11 Arg2:T12	
+R12	Disease_Disease Arg1:T11 Arg2:T13	
+R13	Disease_Disease Arg1:T11 Arg2:T14	
+R14	Disease_Disease Arg1:T11 Arg2:T15	
+R15	Disease_Disease Arg1:T11 Arg2:T16	
+R16	Disease_Disease Arg1:T11 Arg2:T17	
+R17	Disease_Disease Arg1:T11 Arg2:T18	
+R18	Disease_Disease Arg1:T11 Arg2:T19	
+R19	Disease_Disease Arg1:T11 Arg2:T20	
+R20	Disease_Disease Arg1:T11 Arg2:T21	
+R21	Disease_Disease Arg1:T11 Arg2:T22	
+R22	Disease_Disease Arg1:T11 Arg2:T23	

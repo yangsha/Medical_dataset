@@ -1,0 +1,10 @@
+T1	Drug 0 6	利巴韦林含片
+T2	Bacterial 9 16	呼吸道合胞病毒
+T3	Disease 19 24	病毒性肺炎
+T4	Disease 25 29	支气管炎
+T5	Disease 30 38	皮肤疱疹病毒感染
+R1	Drug_Disease Arg1:T1 Arg2:T3	
+R2	Drug_Disease Arg1:T1 Arg2:T4	
+R3	Drug_Disease Arg1:T1 Arg2:T5	
+R4	Bacterial_Disease Arg1:T2 Arg2:T3	
+R5	Bacterial_Disease Arg1:T2 Arg2:T4	

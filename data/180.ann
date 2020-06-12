@@ -1,0 +1,5 @@
+T1	Drug 0 5	京万红软膏
+T2	Disease 7 18	轻度水、火烫伤疮疡肿痛
+T3	Disease 19 23	创面溃烂
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Drug_Disease Arg1:T1 Arg2:T3	

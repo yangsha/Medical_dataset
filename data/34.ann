@@ -1,0 +1,9 @@
+T1	Drug 1 6	氧化锌软膏
+T2	Disease 8 16	急性或亚急性皮炎
+T3	Disease 17 19	湿疹
+T4	Disease 20 22	痱子
+T5	Disease 23 34	轻度、小面积的皮肤溃疡
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Drug_Disease Arg1:T1 Arg2:T3	
+R3	Drug_Disease Arg1:T1 Arg2:T4	
+R4	Drug_Disease Arg1:T1 Arg2:T5	

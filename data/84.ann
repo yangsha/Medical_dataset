@@ -1,0 +1,17 @@
+T1	Drug 0 5	五淋化石丸
+T2	Disease 7 9	淋证
+T3	Disease 10 12	癃闭
+T4	Disease 13 17	尿路感染
+T5	Disease 18 22	尿路结石
+T6	Disease 23 27	前列腺炎
+T7	Disease 28 31	膀胱炎
+T8	Disease 32 36	肾盂肾炎
+T9	Disease 37 40	乳糜尿
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Drug_Disease Arg1:T1 Arg2:T3	
+R3	Drug_Disease Arg1:T1 Arg2:T4	
+R4	Drug_Disease Arg1:T1 Arg2:T5	
+R5	Drug_Disease Arg1:T1 Arg2:T6	
+R6	Drug_Disease Arg1:T1 Arg2:T7	
+R7	Drug_Disease Arg1:T1 Arg2:T8	
+R8	Drug_Disease Arg1:T1 Arg2:T9	

@@ -1,0 +1,94 @@
+T1	Drug 0 8	头孢克洛缓释胶囊
+T2	Bacterial 11 15	金葡萄菌
+T3	Bacterial 16 22	溶血性链球菌
+T4	Bacterial 23 27	肺炎球菌
+T5	Bacterial 28 32	大肠杆菌
+T6	Bacterial 33 37	肺炎杆菌
+T7	Bacterial 38 42	流感杆菌
+T8	Bacterial 43 47	痢疾杆菌
+T9	Bacterial 48 52	敏感菌株
+T10	Disease 60 66	轻、中度感染
+T11	Disease 70 74	扁桃体炎
+T12	Disease 75 80	扁桃体周炎
+T13	Disease 81 84	咽喉炎
+T14	Disease 85 89	支气管炎
+T15	Disease 90 92	肺炎
+T16	Disease 93 98	支气管肺炎
+T17	Disease 99 101	哮喘
+T18	Disease 102 109	支气管扩张感染
+T19	Disease 111 116	手术后感染
+T20	Disease 120 129	急性及慢性肾盂肾炎
+T21	Disease 130 133	膀胱炎
+T22	Disease 134 147	前列腺炎及泌尿生殖系统感染
+T23	Disease 151 154	中耳炎
+T24	Disease 155 158	外耳炎
+T25	Disease 159 162	鼻窦炎
+T26	Disease 166 171	上颌骨周炎
+T27	Disease 172 178	上颌骨骨膜炎
+T28	Disease 179 184	上颌骨髓炎
+T29	Disease 185 189	急性腭炎
+T30	Disease 190 194	牙槽脓肿
+T31	Disease 195 201	根尖性牙周炎
+T32	Disease 202 207	智齿周围炎
+T33	Disease 208 213	拔牙后感染
+T34	Disease 217 220	睑腺炎
+T35	Disease 221 223	睑炎
+T36	Disease 224 229	急性泪囊炎
+T37	Disease 233 236	毛囊炎
+T38	Disease 237 238	疖
+T39	Disease 239 241	丹毒
+T40	Disease 242 247	蜂窝组织炎
+T41	Disease 248 251	脓疱病
+T42	Disease 252 253	痈
+T43	Disease 254 258	痤疮感染
+T44	Disease 259 263	皮下脓肿
+T45	Disease 264 268	创伤感染
+T46	Disease 269 272	乳腺炎
+T47	Disease 273 277	淋巴管炎
+R1	Drug_Disease Arg1:T1 Arg2:T10	
+R2	Bacterial_Disease Arg1:T9 Arg2:T10	
+R3	Disease_Disease Arg1:T9 Arg2:T8	
+R4	Disease_Disease Arg1:T9 Arg2:T7	
+R5	Disease_Disease Arg1:T9 Arg2:T6	
+R6	Disease_Disease Arg1:T9 Arg2:T5	
+R7	Disease_Disease Arg1:T9 Arg2:T4	
+R8	Disease_Disease Arg1:T9 Arg2:T3	
+R9	Disease_Disease Arg1:T9 Arg2:T2	
+R10	Disease_Disease Arg1:T10 Arg2:T11	
+R11	Disease_Disease Arg1:T10 Arg2:T12	
+R12	Disease_Disease Arg1:T10 Arg2:T13	
+R13	Disease_Disease Arg1:T10 Arg2:T14	
+R14	Disease_Disease Arg1:T10 Arg2:T15	
+R15	Disease_Disease Arg1:T10 Arg2:T16	
+R16	Disease_Disease Arg1:T10 Arg2:T17	
+R17	Disease_Disease Arg1:T10 Arg2:T18	
+R18	Disease_Disease Arg1:T10 Arg2:T19	
+R19	Disease_Disease Arg1:T10 Arg2:T20	
+R20	Disease_Disease Arg1:T10 Arg2:T21	
+R21	Disease_Disease Arg1:T10 Arg2:T22	
+R22	Disease_Disease Arg1:T10 Arg2:T23	
+R23	Disease_Disease Arg1:T10 Arg2:T24	
+R24	Disease_Disease Arg1:T10 Arg2:T25	
+R25	Disease_Disease Arg1:T10 Arg2:T26	
+R26	Disease_Disease Arg1:T10 Arg2:T27	
+R27	Disease_Disease Arg1:T10 Arg2:T28	
+R28	Disease_Disease Arg1:T10 Arg2:T29	
+R29	Disease_Disease Arg1:T10 Arg2:T30	
+R30	Disease_Disease Arg1:T10 Arg2:T31	
+R31	Disease_Disease Arg1:T10 Arg2:T32	
+R32	Disease_Disease Arg1:T10 Arg2:T33	
+R33	Disease_Disease Arg1:T10 Arg2:T34	
+R34	Disease_Disease Arg1:T10 Arg2:T35	
+R35	Disease_Disease Arg1:T10 Arg2:T36	
+R36	Disease_Disease Arg1:T10 Arg2:T37	
+R37	Disease_Disease Arg1:T10 Arg2:T38	
+R38	Disease_Disease Arg1:T10 Arg2:T39	
+R39	Disease_Disease Arg1:T10 Arg2:T40	
+R40	Disease_Disease Arg1:T10 Arg2:T41	
+R41	Disease_Disease Arg1:T10 Arg2:T42	
+R42	Disease_Disease Arg1:T10 Arg2:T43	
+R43	Disease_Disease Arg1:T10 Arg2:T43	
+R44	Disease_Disease Arg1:T10 Arg2:T44	
+R45	Disease_Disease Arg1:T10 Arg2:T45	
+R46	Disease_Disease Arg1:T10 Arg2:T46	
+R47	Disease_Disease Arg1:T10 Arg2:T47	

@@ -1,0 +1,15 @@
+T1	Drug 0 5	丹皮酚软膏
+T2	Disease 7 11	各种湿疹
+T3	Disease 12 14	皮炎
+T4	Disease 15 19	皮肤瘙痒
+T5	Disease 20 27	蚊臭虫叮咬红肿
+T6	Disease 28 34	各种皮肤疾患
+T7	Disease 36 41	过敏性鼻炎
+T8	Disease 44 46	感冒
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Drug_Disease Arg1:T1 Arg2:T3	
+R3	Drug_Disease Arg1:T1 Arg2:T4	
+R4	Drug_Disease Arg1:T1 Arg2:T5	
+R5	Drug_Disease Arg1:T1 Arg2:T6	
+R6	Drug_Disease Arg1:T1 Arg2:T7	
+R7	Drug_Disease Arg1:T1 Arg2:T8	

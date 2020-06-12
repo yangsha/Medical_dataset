@@ -1,0 +1,13 @@
+T1	Drug 0 9	倍他米松新霉素乳膏
+T2	Disease 15 28	对肾上腺皮质激素敏感的皮炎
+T3	Disease 71 76	接触性皮炎
+T4	Disease 77 82	过敏性皮炎
+T5	Disease 83 87	各型湿疹
+T6	Disease 62 66	二重感染
+T7	Bacterial 51 59	新霉素敏感的细菌
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Drug_Disease Arg1:T1 Arg2:T6	
+R3	Bacterial_Disease Arg1:T7 Arg2:T6	
+R4	Disease_Disease Arg1:T6 Arg2:T3	
+R5	Disease_Disease Arg1:T6 Arg2:T4	
+R6	Disease_Disease Arg1:T6 Arg2:T5	

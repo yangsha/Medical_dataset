@@ -1,0 +1,17 @@
+T1	Drug 0 9	咪康唑氯倍他索乳膏
+T2	Bacterial 11 13	真菌
+T3	Disease 16 18	皮炎
+T4	Disease 19 21	湿疹
+T5	Disease 22 25	手足癣
+T6	Disease 26 28	股癣
+T7	Disease 29 34	过敏性皮炎
+R1	Drug_Disease Arg1:T1 Arg2:T3	
+R2	Drug_Disease Arg1:T1 Arg2:T4	
+R3	Drug_Disease Arg1:T1 Arg2:T5	
+R4	Drug_Disease Arg1:T1 Arg2:T6	
+R5	Drug_Disease Arg1:T1 Arg2:T7	
+R6	Bacterial_Disease Arg1:T2 Arg2:T3	
+R7	Bacterial_Disease Arg1:T2 Arg2:T4	
+R8	Bacterial_Disease Arg1:T2 Arg2:T5	
+R9	Bacterial_Disease Arg1:T2 Arg2:T6	
+R10	Bacterial_Disease Arg1:T2 Arg2:T7	

@@ -1,0 +1,21 @@
+T1	Drug 0 4	丹青胶囊
+T2	Disease 8 17	寻常型银屑病进行期
+T3	Symptom 33 37	皮肤红斑
+T4	Symptom 38 40	鳞屑
+T5	Symptom 41 45	清润肥厚
+T6	Symptom 46 48	瘙痒
+T7	Symptom 49 51	心烦
+T8	Symptom 52 54	口渴
+T9	Symptom 55 57	口干
+T10	Symptom 58 60	便秘
+T11	Symptom 61 63	溲黄
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Disease_Symptom Arg1:T2 Arg2:T3	
+R3	Disease_Symptom Arg1:T2 Arg2:T4	
+R4	Disease_Symptom Arg1:T2 Arg2:T5	
+R5	Disease_Symptom Arg1:T2 Arg2:T6	
+R6	Disease_Symptom Arg1:T2 Arg2:T7	
+R7	Disease_Symptom Arg1:T2 Arg2:T8	
+R8	Disease_Symptom Arg1:T2 Arg2:T9	
+R9	Disease_Symptom Arg1:T2 Arg2:T10	
+R10	Disease_Symptom Arg1:T2 Arg2:T11	

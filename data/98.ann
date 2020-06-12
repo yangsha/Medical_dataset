@@ -1,0 +1,73 @@
+T1	Drug 0 6	阿莫西林胶囊
+T2	Bacterial 9 12	敏感菌
+T3	Disease 28 30	感染
+T4	Bacterial 34 39	溶血链球菌
+T5	Bacterial 40 45	肺炎链球菌
+T6	Bacterial 46 50	葡萄球菌
+T7	Bacterial 51 57	流感嗜血杆菌
+T8	Disease 59 62	中耳炎
+T9	Disease 63 66	鼻窦炎
+T10	Disease 67 69	咽炎
+T11	Disease 70 74	扁桃体炎
+T12	Disease 75 81	上呼吸道感染
+T13	Bacterial 85 90	大肠埃希菌
+T14	Bacterial 91 97	奇异变形杆菌
+T15	Bacterial 98 102	粪肠球菌
+T16	Disease 105 112	泌尿生殖道感染
+T17	Bacterial 116 121	溶血链球菌
+T18	Bacterial 122 126	葡萄球菌
+T19	Bacterial 127 132	大肠埃希菌
+T20	Disease 135 142	皮肤软组织感染
+T21	Bacterial 146 151	溶血链球菌
+T22	Bacterial 152 157	肺炎链球菌
+T23	Bacterial 158 162	葡萄球菌
+T24	Bacterial 163 169	流感嗜血杆菌
+T25	Disease 171 177	急性支气管炎
+T26	Disease 178 180	肺炎
+T27	Disease 181 187	下呼吸道感染
+T28	Disease 210 212	伤寒
+T29	Patient 213 218	伤寒带菌者
+T30	Disease 219 225	钩端螺旋体病
+R1	Drug_Disease Arg1:T1 Arg2:T3	
+R2	Bacterial_Disease Arg1:T2 Arg2:T3	
+R3	Disease_Disease Arg1:T2 Arg2:T4	
+R4	Disease_Disease Arg1:T2 Arg2:T5	
+R5	Disease_Disease Arg1:T2 Arg2:T6	
+R6	Disease_Disease Arg1:T2 Arg2:T7	
+R7	Disease_Disease Arg1:T3 Arg2:T12	
+R8	Disease_Disease Arg1:T3 Arg2:T16	
+R9	Disease_Disease Arg1:T3 Arg2:T20	
+R10	Disease_Disease Arg1:T3 Arg2:T27	
+R11	Disease_Disease Arg1:T2 Arg2:T13	
+R12	Disease_Disease Arg1:T2 Arg2:T14	
+R13	Disease_Disease Arg1:T2 Arg2:T15	
+R14	Disease_Disease Arg1:T2 Arg2:T17	
+R15	Disease_Disease Arg1:T2 Arg2:T18	
+R16	Disease_Disease Arg1:T2 Arg2:T19	
+R17	Disease_Disease Arg1:T2 Arg2:T21	
+R18	Disease_Disease Arg1:T2 Arg2:T22	
+R19	Disease_Disease Arg1:T2 Arg2:T23	
+R20	Disease_Disease Arg1:T2 Arg2:T24	
+R21	Bacterial_Disease Arg1:T4 Arg2:T12	
+R22	Bacterial_Disease Arg1:T5 Arg2:T12	
+R23	Bacterial_Disease Arg1:T6 Arg2:T12	
+R24	Bacterial_Disease Arg1:T7 Arg2:T12	
+R25	Disease_Disease Arg1:T12 Arg2:T11	
+R26	Disease_Disease Arg1:T12 Arg2:T10	
+R27	Disease_Disease Arg1:T12 Arg2:T9	
+R28	Disease_Disease Arg1:T12 Arg2:T8	
+R29	Bacterial_Disease Arg1:T13 Arg2:T16	
+R30	Bacterial_Disease Arg1:T14 Arg2:T16	
+R31	Bacterial_Disease Arg1:T15 Arg2:T16	
+R32	Bacterial_Disease Arg1:T19 Arg2:T20	
+R33	Bacterial_Disease Arg1:T18 Arg2:T20	
+R34	Bacterial_Disease Arg1:T17 Arg2:T20	
+R35	Bacterial_Disease Arg1:T21 Arg2:T27	
+R36	Bacterial_Disease Arg1:T22 Arg2:T27	
+R37	Bacterial_Disease Arg1:T23 Arg2:T27	
+R38	Bacterial_Disease Arg1:T24 Arg2:T27	
+R39	Disease_Disease Arg1:T27 Arg2:T26	
+R40	Disease_Disease Arg1:T27 Arg2:T25	
+R41	Drug_Disease Arg1:T1 Arg2:T28	
+R42	Valid Arg1:T1 Arg2:T29	
+R43	Drug_Disease Arg1:T1 Arg2:T30	

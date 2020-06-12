@@ -1,0 +1,15 @@
+T1	Drug 0 6	克霉唑阴道片
+T2	Bacterial 10 12	真菌
+T3	Bacterial 15 18	念珠菌
+T4	Disease 21 25	阴道炎症
+T5	Bacterial 27 30	酵母菌
+T6	Disease 33 37	白带异常
+T7	Bacterial 48 54	克霉唑敏感菌
+T8	Disease 57 63	阴道双重感染
+R1	Drug_Disease Arg1:T1 Arg2:T4	
+R2	Drug_Disease Arg1:T1 Arg2:T6	
+R3	Drug_Disease Arg1:T1 Arg2:T8	
+R4	Bacterial_Bacterial Arg1:T2 Arg2:T3	
+R5	Bacterial_Disease Arg1:T3 Arg2:T4	
+R6	Bacterial_Disease Arg1:T5 Arg2:T6	
+R7	Bacterial_Disease Arg1:T7 Arg2:T8	

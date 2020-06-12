@@ -1,0 +1,23 @@
+T1	Drug 0 7	聚甲酚磺醛溶液
+T2	Disease 18 22	宫颈糜烂
+T3	Disease 23 26	宫颈炎
+T4	Disease 27 33	各类阴道感染
+T5	Disease 52 56	外阴瘙痒
+T6	Disease 60 71	子宫托造成的压迫性溃疡
+T7	Disease 85 87	止血
+T8	Disease 103 107	伤口愈合
+T9	Disease 46 50	白带增多
+T10	Bacterial 35 37	细菌
+T11	Bacterial 38 40	滴虫
+T12	Bacterial 41 43	霉菌
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Drug_Disease Arg1:T1 Arg2:T3	
+R3	Drug_Disease Arg1:T1 Arg2:T4	
+R4	Disease_Disease Arg1:T4 Arg2:T9	
+R5	Bacterial_Disease Arg1:T10 Arg2:T9	
+R6	Bacterial_Disease Arg1:T11 Arg2:T9	
+R7	Bacterial_Disease Arg1:T12 Arg2:T9	
+R8	Drug_Disease Arg1:T1 Arg2:T5	
+R9	Drug_Disease Arg1:T1 Arg2:T6	
+R10	Drug_Disease Arg1:T1 Arg2:T7	
+R11	Drug_Disease Arg1:T1 Arg2:T8	

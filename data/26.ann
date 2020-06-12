@@ -1,0 +1,17 @@
+T1	Drug 0 6	哈西奈德溶液
+T2	Disease 8 13	接触性湿疹
+T3	Disease 14 19	异位性皮炎
+T4	Disease 20 25	神经性皮炎
+T5	Disease 26 34	面积不大的银屑病
+T6	Disease 35 43	硬化性萎缩性苔藓
+T7	Disease 44 48	扁平苔藓
+T8	Disease 49 56	盘状红斑性狼疮
+T9	Disease 57 72	脂溢性皮炎（非面部）肥厚性瘢痕
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Drug_Disease Arg1:T1 Arg2:T3	
+R3	Drug_Disease Arg1:T1 Arg2:T4	
+R4	Drug_Disease Arg1:T1 Arg2:T5	
+R5	Drug_Disease Arg1:T1 Arg2:T6	
+R6	Drug_Disease Arg1:T1 Arg2:T7	
+R7	Drug_Disease Arg1:T1 Arg2:T8	
+R8	Drug_Disease Arg1:T1 Arg2:T9	

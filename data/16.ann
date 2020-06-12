@@ -1,0 +1,19 @@
+T1	Drug 0 6	复方樟脑乳膏
+T2	Disease 8 12	虫咬皮炎
+T3	Disease 13 15	湿疹
+T4	Disease 16 19	瘙痒症
+T5	Disease 20 25	神经性皮炎
+T6	Disease 26 31	过敏性皮炎
+T7	Disease 32 38	丘疹性荨麻疹
+T8	Disease 44 48	肩胛酸痛
+T9	Disease 49 52	肌肉痛
+T10	Disease 53 61	烫伤后的皮肤疼痛
+R1	Drug_Disease Arg1:T1 Arg2:T2	
+R2	Drug_Disease Arg1:T1 Arg2:T3	
+R3	Drug_Disease Arg1:T1 Arg2:T4	
+R4	Drug_Disease Arg1:T1 Arg2:T5	
+R5	Drug_Disease Arg1:T1 Arg2:T6	
+R6	Drug_Disease Arg1:T1 Arg2:T7	
+R7	Drug_Disease Arg1:T1 Arg2:T8	
+R8	Drug_Disease Arg1:T1 Arg2:T9	
+R9	Drug_Disease Arg1:T1 Arg2:T10	

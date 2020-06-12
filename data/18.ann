@@ -1,0 +1,15 @@
+T1	Drug 0 5	氯霉素搽剂
+T2	Bacterial 8 20	对氯霉素类抗生素敏感细菌
+T3	Disease 24 26	痤疮
+T4	Disease 27 29	粉刺
+T5	Disease 30 33	酒渣鼻
+T6	Disease 35 40	脂溢性皮炎
+T7	Disease 41 44	毛囊炎
+R1	Drug_Disease Arg1:T1 Arg2:T3	
+R2	Drug_Disease Arg1:T1 Arg2:T6	
+R3	Drug_Disease Arg1:T1 Arg2:T7	
+R4	Disease_Disease Arg1:T3 Arg2:T4	
+R5	Disease_Disease Arg1:T3 Arg2:T5	
+R6	Bacterial_Disease Arg1:T2 Arg2:T3	
+R7	Bacterial_Disease Arg1:T2 Arg2:T6	
+R8	Bacterial_Disease Arg1:T2 Arg2:T7	
